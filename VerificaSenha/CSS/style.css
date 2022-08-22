@@ -1,0 +1,15 @@
+h1 { border-bottom-style:double}
+.entreLetras { letter-spacing: 0.5em; }
+.aDireita { text-align: right; }
+
+#btVerificar {
+    font-size: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    
+    background-color: papayawhip;
+
+}

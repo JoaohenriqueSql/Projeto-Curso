@@ -1,0 +1,152 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+
+.container {
+  position: relative;
+  width: 100%;
+
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+.column {
+  margin-bottom: 1.5rem;
+  margin-top: 48px;
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+}
+
+@media (min-width: 640px) {
+  .container {
+    width: 90%;
+    padding: 0; }
+  .column {
+    margin-left: 4%; }
+  .column:first-child {
+    margin-left: 0; }
+
+  .full-width.column              { width: 100%; margin-left: 0; }  
+
+  .one-half.column                { width: 48%; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-quarter.column             { width: 22%; }
+  .two-quarter.column             { width: 48%; }
+  .three-quarter.column           { width: 74%; }
+
+  .one-half.column                { width: 48%; }
+
+            
+
+}
+
+.container:after,
+.row:after,
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #080808;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Barclaycard Co Lt', sans-serif;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  color: #ae00ff;
+  font-size: 26px;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.questions_box {
+  background-color: #000000;
+  padding: 60px;
+  text-align: left;
+  max-width: 960px;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.button {
+  font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+
+  font-size: 1em;
+  border: none;
+  padding: 10px 15px;
+  line-height: 18px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 23px;
+  vertical-align: baseline;
+  background: #4f008f;
+  color: white;
+  text-decoration: none !important;
+  display: inline-block;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.button:hover {
+  background-color: #210047 !important;
+  color: rgb(255, 255, 255);
+}
+
+#question-2, #question-3, #question-4, #question-5, #question-6{
+  display: none;
+}
+
+#progress_bar {
+  border-radius: 10px;
+  background-color: #00fff2;
+  width: 20%;
+  height: 10px;
+  transition: all 100ms ease-in-out;
+}
+
+
+.indicacao {
+  max-width: 100%;
+  padding: 150px;
+  background: #4f008f;
+}
+
+.indicacao h3 {
+  color: rgb(0, 255, 221);
+  font-size: 50px;
+  font-family: sans-serif;
+  border-left: 8px solid purple; 
+}

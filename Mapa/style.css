@@ -1,0 +1,72 @@
+body{
+    background: #1d1d1d;
+  }
+  
+  .map {
+    background-color: black;
+  }
+
+  p{
+    font-family: 'Kiwi Maru', serif;
+    font-weight: 300;
+    font-size: 12px;
+    
+  }
+  
+  h1{
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 16px;
+  }
+  
+  .hide{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    margin: 30px;
+    padding: 16px 25px;
+    border: 1px solid #00ffb3;
+    font-size: 12px;
+  }
+  
+  .russia-txt{
+    top: 70%;
+    left: 60%;
+  }
+  
+  .uk-txt{
+    top: 71%;
+    left: 47%;
+  }
+  
+  .usa-txt{
+    top: 82%;
+    left: 7%;
+  }
+  
+  .brazil-txt{
+    top: 117%;
+    left: 17%;
+  }
+
+
+
+  .informa {
+    background: #9900ff;
+    color: #fff;
+    padding: 80px;
+  }
+
+  .informa h1 {
+    font-size: 50px;
+    padding-right: 760px;
+    margin: right 1px;
+  }
+
+  #chartdiv {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+  }
