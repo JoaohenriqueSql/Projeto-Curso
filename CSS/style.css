@@ -119,24 +119,13 @@ header {
 /*END*/
 
 /*ANIMAÇÃO GRADIENT FUNDO DO PAGINA PRINCIPAL*/
-html {
-	background: linear-gradient(-45deg, #1d004b, #24005f, #29003a, #260064);
-	background-size: 1000% 1000%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+
+body {
+  height: 100% 100%;
+  overflow: scroll;
+  background: radial-gradient(ellipse at bottom, #27004b 0%,#000000 100%);
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 /*END*/
 
 /*CARDHOVER COM ASSUNTOS*/
@@ -265,74 +254,6 @@ body .container .card .box .content a:hover {
 }
 /*END*/
 
-/*GLOBO ANIMADO DO MENU*/
-.main-container {
-	display: flex;
-	Justify-content: center;
-	align-items: center;
-	position: relative;
-	height: 63px;
-	width: 66px;
-	animation: flicker 3s infinite;
-  padding-right: 38px;
-}
-
-@keyframes flicker {
-  0% {
-    opacity: 1;
-  }
-	18% {
-    opacity: 1;
-  }
-	19% {
-    opacity: 0;
-  }
-	20% {
-    opacity: 1;
-  }
-	96% {
-		opacity: 1;
-	}
-	97% {
-		opacity: 0;
-	}
-	98% {
-		opacity: 1;
-	}
-}
-
-.countries-container {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	position: absolute;
-	height: 96%;
-	width: 96%;
-	border-radius: 100px;
-	overflow: hidden;
-	z-index: 2;
-}
-
-.countries {
-	position: absolute;
-	animation: axis-spin 5s steps(24) infinite;
-}
-
-@keyframes axis-spin {
-  from {
-    transform: translatex(0px);
-  }
-  to {
-    transform: translatex(-123px);
-  }
-}
-
-.globe {
-	position: absolute;
-	filter: drop-shadow(-2px -2px 8px #FF409C) drop-shadow(2px 2px 3px #3B2BFF);
-}
-/*END*/
-
 .comc {
   color: #fff;
   background: #000000;
@@ -353,3 +274,10 @@ body .container .card .box .content a:hover {
 }
 
 /*END*/
+
+.barra {
+  background: #201f1f;
+  margin-top: 120px;
+  padding-top: 50px;
+  padding-bottom: 440px;
+}
