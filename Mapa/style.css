@@ -1,5 +1,5 @@
 body{
-    background: #1d1d1d;
+    background: #1d0038;
   }
   
   .map {
@@ -54,7 +54,6 @@ body{
 
 
   .informa {
-    background: #9900ff;
     color: #fff;
     padding: 80px;
   }
@@ -63,10 +62,27 @@ body{
     font-size: 50px;
     padding-right: 760px;
     margin: right 1px;
+    border-left: 9px solid #00ffdd;
   }
 
   #chartdiv {
     width: 100%;
     height: 500px;
     background: #ffffff;
+  }
+
+  .barra {
+    height: 900px;
+    width: 100%;
+    background-color: #650072;
+    border-radius: 40px;
+    margin-bottom: 90px;
+  }
+
+  .lacuna {
+    background: #6f00ff;
+    width: 600px;
+    height: 590px;
+    border-radius: 20px;
+    margin-left: 650px;
   }
