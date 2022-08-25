@@ -74,15 +74,14 @@ body{
   .barra {
     height: 900px;
     width: 100%;
-    background-color: #650072;
+    background-color: #1b1b1b;
     border-radius: 40px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 
-  .lacuna {
-    background: #6f00ff;
-    width: 600px;
-    height: 590px;
-    border-radius: 20px;
-    margin-left: 650px;
+  .info {
+    background-color: #7b00b4;
+    width: 700px;
+    height: 600px;
+    margin-left: 600px;
   }
