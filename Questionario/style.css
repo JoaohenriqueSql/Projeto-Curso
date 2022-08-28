@@ -4,7 +4,6 @@
 .container {
   position: relative;
   width: 100%;
-
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
@@ -141,12 +140,18 @@ h3 {
 .indicacao {
   max-width: 100%;
   padding: 150px;
-  background: #4f008f;
+  background: #000000;
+  box-shadow: 0px 3px 10px #0099ff;
 }
 
 .indicacao h3 {
-  color: rgb(0, 255, 221);
+  color: #8400ff;
   font-size: 50px;
   font-family: sans-serif;
-  border-left: 8px solid purple; 
+  border-left: 8px solid rgb(0, 247, 255);
+  padding-left: 16px; 
+  margin-top: -45px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: -140px;
 }
