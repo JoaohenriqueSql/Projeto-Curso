@@ -8,7 +8,6 @@
 
 /*CABEÇALHO*/
 header {
-    background-color: #24252a;
     box-shadow: 0px 3px 10px #7700ff;
 }
 
@@ -123,7 +122,7 @@ header {
 body {
   height: 100% 100%;
   overflow: scroll;
-  background: radial-gradient(ellipse at bottom, #27004b 0%,#000000 100%);
+  background-image: radial-gradient(circle,rgb(34, 1, 65),black);
 }
 
 /*END*/

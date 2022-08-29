@@ -1,0 +1,168 @@
+:root{
+    --back_color: #221F2E;
+    --front_color: #2E2B3F;
+    --purple: #6240F6;
+    --pink: #EB7AC8;
+    --blue: #2DB8E7;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--back_color);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcard{
+    width: 310px;
+    height: 450px;
+    background: var(--front_color);
+    border-radius: 28px;
+    box-shadow: 5px 0px 20px rgba(0,0,0,39%);
+    margin: 20px;
+}
+
+.header{
+    height: 40%;
+    position: relative;
+}
+
+.wave_bg{
+    border-radius: 28px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wave-01{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to top right, var(--purple), var(--pink));
+    border-radius: 50%;
+    top: -200%;
+    left: -20%;
+    animation: rotate 10s linear infinite;
+}
+.wave-02{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to top right, var(--purple), var(--pink));
+    border-radius: 40%;
+    top: -205%;
+    left: -22%;
+    opacity: 0.5;
+    animation: rotate 15s linear infinite;
+}
+.wave-03{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to top right, var(--purple), var(--pink));
+    border-radius: 45%;
+    top: -198%;
+    left: -18%;
+    opacity: 0.2;
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.profile_pic_content{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    text-align: center;
+}
+.profile_pic_content::after{
+    content: '';
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, var(--purple), var(--pink));
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    z-index: -1;
+    opacity: 0;
+    transition: all .7s;
+}
+.profile_pic_content:hover::after{
+    opacity: 0.2;
+}
+
+.profile_pic{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.card_content{
+    position: relative;
+    top: 7%;
+    text-align: center;
+}
+
+.name{
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.info{
+    margin-top: 5px;
+    color: white;
+    padding: 0px 10px;
+}
+
+.typed_text{
+  text-align: left;
+}
+
+.social{
+    color: white;
+    padding: 5px;
+    margin-top: 65px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social i{
+    padding: 5px;
+}
+.button{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    background: linear-gradient(to top right, var(--pink), var(--purple));
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    transition: all .7s;
+}
+.button:hover{
+    box-shadow: 0px 8px 20px rgba(0,0,0,39%);
+}
