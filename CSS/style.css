@@ -277,3 +277,245 @@ body .container .card .box .content a:hover {
   padding-top: 50px;
   padding-bottom: 440px;
 }
+
+
+
+
+
+.left-portion__hero {
+  width: 90%;
+  height: 90%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hr-animation {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 235px;
+  position: relative;
+  background: url('https://f.flockusercontent2.com/8c871411481883540ea98654') no-repeat 0 0;
+}
+
+.hr-animation,
+.hranimation>div {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  animation: blurIntro 2s;
+}
+
+.chat-bubble {
+  width: 28px;
+  height: 27px;
+  position: absolute;
+  top: 17px;
+  left: 159px;
+  background: url('https://f.flockusercontent2.com/8c871411481823027081c4c8') no-repeat 0 0;
+  animation: pulse 4s infinite 0s ease-out;
+}
+
+.statistic {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 51px;
+  left: 236px;
+  background: url('https://f.flockusercontent2.com/8c871411481823122afa7340') no-repeat 0 0;
+  animation: pulse 4s infinite 2s ease-out;
+}
+
+.reports {
+  width: 38px;
+  height: 35px;
+  position: absolute;
+  top: 117px;
+  left: 252px;
+  background: url('https://f.flockusercontent2.com/8c8714114818229303698213') no-repeat 0 0;
+  animation: pulse2 4s infinite 1s ease-out;
+}
+
+.page {
+  width: 21px;
+  height: 27px;
+  position: absolute;
+  top: 133px;
+  left: 64px;
+  background: url('https://f.flockusercontent2.com/8c8714114818232483df74aa') no-repeat 0 0;
+  animation: pulse 4s infinite 2s ease-out;
+}
+
+.magnifying-glass {
+  width: 30px;
+  height: 31px;
+  position: absolute;
+  top: 138px;
+  left: 68px;
+  background: url('https://f.flockusercontent2.com/8c871411481882145f5dfd11') no-repeat 0 0;
+  animation: pulse-mag 4s infinite 0s ease-out;
+}
+
+.pie-chart {
+  width: 26px;
+  height: 28px;
+  position: absolute;
+  top: 53px;
+  left: 90px;
+  background: url('https://f.flockusercontent2.com/8c87141148182324869dfa92') no-repeat 0 0;
+  animation: pulse 4s infinite 0s ease-out;
+}
+
+.eyes {
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  background-color: #ffc8ae;
+  position: absolute;
+  top: 116px;
+  left: 164.5px;
+  animation: blink 7s ease-out infinite;
+}
+
+.eye-right {
+  left: 186px;
+}
+
+.smoke {
+  width: 22px;
+  height: 29px;
+  background: url('https://f.flockusercontent2.com/8c8714114818867949492363') no-repeat 0 0;
+  position: absolute;
+  top: 162px;
+  left: 227px;
+  opacity: 0;
+}
+
+.smoke1 {
+  animation: smoke 5s linear infinite;
+}
+
+.smoke2 {
+  animation: smoke2 10s infinite linear;
+}
+
+.smoke3 {
+  animation: smoke3 6s infinite linear;
+}
+
+
+/* animations */
+
+@keyframes blink {
+  0% {
+    top: 120px;
+    height: 0px;
+  }
+  4% {
+    top: 120px;
+    height: 7px;
+  }
+  8% {
+    top: 120px;
+    height: 0px;
+  }
+  20% {
+    top: 120px;
+    height: 0px;
+  }
+  24% {
+    top: 120px;
+    height: 7px;
+  }
+  27% {
+    top: 120px;
+    height: 0px;
+  }
+  31% {
+    top: 120px;
+    height: 7px;
+  }
+  35% {
+    top: 120px;
+    height: 0px;
+  }
+  100% {
+    top: 120px;
+    height: 0px;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-13px);
+    opacit: 0;
+  }
+}
+
+@keyframes smoke2 {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-7px);
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-13px);
+  }
+  100% {
+    transform: translateY(-13px);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke3 {
+  0% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-3px);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+@keyframes pulse2 {
+  50% {
+    transform: translate3d(6px, 3px, 0);
+  }
+}
+
+@keyframes pulse-mag {
+  50% {
+    transform: translate3d(-3px, 3px, 0);
+  }
+}
+
+@keyframes blurIntro {
+  0% {
+    filter: blur(500px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}

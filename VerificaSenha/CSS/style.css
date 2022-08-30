@@ -1,15 +1,11 @@
-h1 { border-bottom-style:double}
-.entreLetras { letter-spacing: 0.5em; }
-.aDireita { text-align: right; }
-
 #btVerificar {
+    color: #00fff2;
     font-size: 30px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 15px;
+    background-color: #000000;
+    border-color:transparent;
+}
 
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    
-    background-color: papayawhip;
-
+.container {
+    text-align: center;
 }
