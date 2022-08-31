@@ -1,9 +1,13 @@
+/*menu header animado*/
 header {
     height: 100%;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #120022 0%,#000000 100%);
 }
 
+/*estrelas*/
+
+/*grupo 2*/
 #stars {
     width: 1px;
     height: 1px;
@@ -374,6 +378,7 @@ header {
     696px 1654px #fff, 1144px 60px #fff;
 }
 
+/*grupo 2*/
 #stars2 {
     width: 2px;
     height: 2px;
@@ -432,6 +437,7 @@ header {
     986px 1529px #fff, 1667px 1137px #fff;
 }
 
+/*grupo 2*/
 #stars2:after {
     content: '';
     position: absolute;
@@ -492,6 +498,7 @@ header {
     986px 1529px #fff, 1667px 1137px #fff;
 }
 
+/*grupo 3*/
 #stars3 {
     width: 3px;
     height: 3px;
@@ -560,7 +567,7 @@ header {
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
-
+/*frames (movimentação)*/
 @keyframes animStar {
     from {
         transform: translateY(0px);

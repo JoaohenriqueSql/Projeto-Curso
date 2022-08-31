@@ -11,6 +11,7 @@ function menuShow() {
 }
 /*END*/
 
+/*TRAÇOS DO BACKGROUND DA PÁGINA*/
 ((c) => {
     const options = {
         num: 40,
@@ -26,6 +27,7 @@ function menuShow() {
     let w = c.width = window.innerWidth;
     let h = c.height = window.innerHeight;
 
+/*PARTÍCULAS*/
     class Particle {
         constructor() {
             this.p = {x: Math.random() * c.width, y: Math.random() * c.height};
@@ -110,6 +112,7 @@ function menuShow() {
         window.requestAnimationFrame(integrate);
     };
 
+/*CONEXÃO COM FUNDO E AINMAÇÃO EM TRANSIÇÃO INFINITO*/
     const init = () => {
         c.classList.add('network-background-canvas');
         document.body.insertAdjacentElement('beforeend', c);

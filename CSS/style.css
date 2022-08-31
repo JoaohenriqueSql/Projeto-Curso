@@ -27,6 +27,7 @@ header {
     color: #8400ff;
 }
 
+/*LINKS*/
 .nav-list {
     display: flex;
     align-items: center;
@@ -54,6 +55,7 @@ header {
     color: #00eeff;
 }
 
+/*BOTÃO DE LOGIN*/
 .login-button button {
     border: none;
     padding: 10px 15px;
@@ -118,7 +120,6 @@ header {
 /*END*/
 
 /*ANIMAÇÃO GRADIENT FUNDO DO PAGINA PRINCIPAL*/
-
 body {
   height: 100% 100%;
   overflow: scroll;
@@ -134,24 +135,23 @@ body {
   height: 100%;
   z-index: -1000;
 }
-
 /*END*/
 
+/*TITULO DO SITE*/
 .titulo h1 {
-  color: #00ff55;
+  color: #ffffff;
   margin-left: 95px;
   font-size: 50px;
   padding-top: 65px;
 }
 
-
-
+/*SCROLLBAR PERSONALIZADA DO SITE*/
 ::-webkit-scrollbar {
   width: 13px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#2e0063, #090083, #0099ff);
+  background: linear-gradient(#5100ad, #2e0083, #0004ff);
   border-radius: 18px;
 }
 
