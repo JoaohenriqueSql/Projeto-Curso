@@ -3,6 +3,7 @@ header {
     height: 100%;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #120022 0%,#000000 100%);
+    z-index: 2000px;
 }
 
 /*estrelas*/
@@ -573,6 +574,6 @@ header {
         transform: translateY(0px);
     }
     to {
-        transform: translateY(-2000px);
+        transform: translateY(-1000px);
     }
 }

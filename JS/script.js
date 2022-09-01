@@ -15,10 +15,10 @@ function menuShow() {
 ((c) => {
     const options = {
         num: 40,
-        particle: {color: 'rgba(0, 255, 236, 0.8)',
+        particle: {color: 'rgba(0, 47, 255, 0.8)',
                    szMin: 0.5, szMax: 1,
                    spMin: 0.05, spMax: 0.5},
-        link: {color: 'rgba(0, 255, 236, 0.8)', maxDist: 120}
+        link: {color: 'rgba(0, 47, 255, 0.8)', maxDist: 120}
     };
 
     const pi2  = Math.PI*2;
@@ -123,3 +123,8 @@ function menuShow() {
 
     document.addEventListener('DOMContentLoaded', init);
 })(document.createElement('canvas'));
+
+
+
+
+
