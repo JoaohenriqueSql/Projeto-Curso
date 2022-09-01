@@ -65,7 +65,7 @@ header {
 
 .login-button button a {
     text-decoration: none;
-    color: #001aff;
+    color: #000000;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -123,7 +123,7 @@ header {
 body {
   height: 100% 100%;
   overflow: scroll;
-  background-image: radial-gradient(circle,rgb(1, 42, 65),black);
+  background-image: radial-gradient(circle,rgb(0, 55, 87),black);
 }
 
 .network-background-canvas {
@@ -139,13 +139,14 @@ body {
 
 /*TITULO DO SITE*/
 .titulo h1 {
-  background: -webkit-linear-gradient(-70deg, #46ffa6 25%, #4099ff 50%, #9646ff 100%);
+  background: -webkit-linear-gradient(-70deg, #46ffa6 25%, #4099ff 50%, #8b31ff 65%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 95px;
   font-size: 50px;
   padding-top: 65px;
+  
 }
 
 /*SCROLLBAR PERSONALIZADA DO SITE*/
@@ -154,7 +155,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#9c51ff, #447fff);
+  background: linear-gradient(#9442ff, #2d6fff);
   border-radius: 18px;
 }
 
@@ -167,7 +168,7 @@ body {
 
 
 .comeco {
-    background: -webkit-linear-gradient(-56.3deg, #141414 50%, #1f2e61 50%);
+    background: -webkit-linear-gradient(-57.9deg, #141414 50%, #1f2e61 50%);
     max-width: 100%;
     height: 750px;
     margin-top: 270px;
@@ -175,7 +176,7 @@ body {
 }
 
 .comeco h1 {
-  background: -webkit-linear-gradient(-70deg, #5900ff 20%, #1148ff 45%);
+  background: -webkit-linear-gradient(-70deg, #00c3ff 20%, #1148ff 45%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -183,7 +184,7 @@ body {
 }
 
 .assuntos {
-    background: -webkit-linear-gradient(-56.3deg, #0e122b 20%, #183c5e 55%, #502d88 90%);
+    background: -webkit-linear-gradient(-56.3deg, #0e122b 20%, #052d53 55%, #004464 90%);
     color: #fff;
     max-width: 100%;
     height: 550px;
@@ -203,7 +204,7 @@ body {
 .cards {
     display: flex;
     padding-top: 60px;
-    margin-left: 115px;
+    margin-left: 150px;
     color: #000000;
 }
 
@@ -257,13 +258,13 @@ body {
 }
 
 .cards section.card.padlock {
-    box-shadow: 20px 20px 50px -30px #ffa3c0;
+    box-shadow: 20px 20px 50px -20px #ff5289;
 }
 .cards section.card.privacy {
-    box-shadow: 20px 20px 50px -30px #93c7ff;
+    box-shadow: 20px 20px 50px -20px #cc00ff;
 }
 .cards section.card.statistic {
-    box-shadow: 20px 20px 50px -30px #80ffd9;
+    box-shadow: 20px 20px 50px -20px #8c00ff;
 }
 
 @media screen and (max-width: 720px) {
@@ -286,16 +287,13 @@ body {
 
 }
 
-
-
-
-svg {
+/*imagem animada com movimento*/
+.titulo svg {
     width: 30vw;
     display: block;
     margin: 0 auto;
-    margin-top: -100px;
-    padding-left: 10px;
-    padding-top: 90px;
+    margin-top: -500px;
+    padding-left: 50px;
     margin-left: 850px;
   }
   
@@ -313,6 +311,7 @@ svg {
     transform: translateY(-5px);
   }
   
+  /*frames de movimentação*/
   @keyframes shake{
     0% {
       transform: translateY(-5px);
@@ -324,206 +323,30 @@ svg {
       transform: translateY(-5px);
     }
   }
-  
 
-
-
-
-/*
-  #container2 {
-    width: 70vw;
-    margin: 30vw auto;
-  }
-  
-  #container2 h1 {
+/*subtitulo da pagina*/
+  .subtitulo {
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+    max-width: 45%;
+    height: 400px;
+    margin-top: 215px;
+    align-items: center;
     text-align: center;
-    color: #fff;
-    font-size: 5em;
-    letter-spacing: 8px;
-    font-family: 'Press Start 2P';
-    font-weight: 400;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 12px 10px 30px rgba(200, 80, 255, 0.699);
+  }
 
-    
-    margin: 0;
-    line-height: 0;
+  .subtitulo .exem h2 {
+    color: #ffffff;
+    text-indent: 10px;
+    padding-top: 30px;
+    padding-right: 70px;
+  }
 
-    
-    animation: glitch1 2.5s infinite;
+  .subtitulo .exem h3 {
+    color: #00ff6a;
+    text-indent: -200px;
+    margin: 80px;
   }
-  
-  #container2 h1:nth-child(2) {
-    color: #67c0f3;
-    animation: glitch2 2.5s infinite;
-  }
-  
-  #container2 h1:nth-child(3) {
-    color: #f16f6f;
-    animation: glitch3 2.5s infinite;
-  }
- 
-  
-  @keyframes glitch1 {
-    0% {
-      transform: none;
-      opacity: 1;
-    }
-    7% {
-      transform: skew(-0.5deg, -0.9deg);
-      opacity: 0.75;
-    }
-    10% {
-      transform: none;
-      opacity: 1;
-    }
-    27% {
-      transform: none;
-      opacity: 1;
-    }
-    30% {
-      transform: skew(0.8deg, -0.1deg);
-      opacity: 0.75;
-    }
-    35% {
-      transform: none;
-      opacity: 1;
-    }
-    52% {
-      transform: none;
-      opacity: 1;
-    }
-    55% {
-      transform: skew(-1deg, 0.2deg);
-      opacity: 0.75;
-    }
-    50% {
-      transform: none;
-      opacity: 1;
-    }
-    72% {
-      transform: none;
-      opacity: 1;
-    }
-    75% {
-      transform: skew(0.4deg, 1deg);
-      opacity: 0.75;
-    }
-    80% {
-      transform: none;
-      opacity: 1;
-    }
-    100% {
-      transform: none;
-      opacity: 1;
-    }
-  }
-  
-  @keyframes glitch2 {
-    0% {
-      transform: none;
-      opacity: 0.25;
-    }
-    7% {
-      transform: translate(-2px, -3px);
-      opacity: 0.5;
-    }
-    10% {
-      transform: none;
-      opacity: 0.25;
-    }
-    27% {
-      transform: none;
-      opacity: 0.25;
-    }
-    30% {
-      transform: translate(-5px, -2px);
-      opacity: 0.5;
-    }
-    35% {
-      transform: none;
-      opacity: 0.25;
-    }
-    52% {
-      transform: none;
-      opacity: 0.25;
-    }
-    55% {
-      transform: translate(-5px, -1px);
-      opacity: 0.5;
-    }
-    50% {
-      transform: none;
-      opacity: 0.25;
-    }
-    72% {
-      transform: none;
-      opacity: 0.25;
-    }
-    75% {
-      transform: translate(-2px, -6px);
-      opacity: 0.5;
-    }
-    80% {
-      transform: none;
-      opacity: 0.25;
-    }
-    100% {
-      transform: none;
-      opacity: 0.25;
-    }
-  }
-  
-  @keyframes glitch3 {
-    0% {
-      transform: none;
-      opacity: 0.25;
-    }
-    7% {
-      transform: translate(2px, 3px);
-      opacity: 0.5;
-    }
-    10% {
-      transform: none;
-      opacity: 0.25;
-    }
-    27% {
-      transform: none;
-      opacity: 0.25;
-    }
-    30% {
-      transform: translate(5px, 2px);
-      opacity: 0.5;
-    }
-    35% {
-      transform: none;
-      opacity: 0.25;
-    }
-    52% {
-      transform: none;
-      opacity: 0.25;
-    }
-    55% {
-      transform: translate(5px, 1px);
-      opacity: 0.5;
-    }
-    50% {
-      transform: none;
-      opacity: 0.25;
-    }
-    72% {
-      transform: none;
-      opacity: 0.25;
-    }
-    75% {
-      transform: translate(2px, 6px);
-      opacity: 0.5;
-    }
-    80% {
-      transform: none;
-      opacity: 0.25;
-    }
-    100% {
-      transform: none;
-      opacity: 0.25;
-    }
-  }
-  */
