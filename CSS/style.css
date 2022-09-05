@@ -376,8 +376,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin-top: -700px;
-    margin-left: 150px;
+    margin-top: -730px;
+    margin-left: 120px;
 }
 
 /*color depois em giro na box*/
@@ -438,4 +438,90 @@ img {
     height: 75px;
     width: 75px;
     padding-bottom: 85px;
+}
+
+/*container do subitulo*/
+.alword {
+    background-color: #212222;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 390px;
+    width: 690px;
+    margin-top: -180px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+/*button link encaminhamento estilização*/
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*active function do button, quando passa o cursor do mouse*/
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*estilo do button*/
+.btn-white {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+/*efeito de recuo do button, quando remove o mouse*/
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+/*sombra depois do cursor do mouse*/
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+/*frames do hover*/
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
