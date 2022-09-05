@@ -4,7 +4,7 @@ servidor com configuração padrão (usuário 'root' sem senha) */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'test');
+define('DB_NAME', 'seguranca-dados');
  
 /* Tentativa de conexão com o banco de dados MySQL */
 try{

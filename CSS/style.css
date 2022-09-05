@@ -63,6 +63,10 @@ header {
     background-color: #00ff6a;
 }
 
+.login-button a:hover {
+    color: #0086c4;
+}
+
 .login-button button a {
     text-decoration: none;
     color: #000000;
@@ -247,24 +251,19 @@ body {
     text-transform: uppercase;
 }
 
-.cards section.card.padlock button {
-    background: linear-gradient(to right, #9F66FF, #DFCBFF);
-}
-.cards section.card.privacy button {
-    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
-}
-.cards section.card.statistic button {
-    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
-}
-
+/*box-shadow de senhas*/
 .cards section.card.padlock {
     box-shadow: 20px 20px 50px -20px #ff5289;
 }
+
+/*box-shadow de privacidade*/
 .cards section.card.privacy {
     box-shadow: 20px 20px 50px -20px #cc00ff;
 }
+
+/*box-shadow de estatísticas*/
 .cards section.card.statistic {
-    box-shadow: 20px 20px 50px -20px #8c00ff;
+    box-shadow: 20px 20px 50px -20px #00ff73;
 }
 
 @media screen and (max-width: 720px) {
@@ -294,9 +293,10 @@ body {
     margin: 0 auto;
     margin-top: -500px;
     padding-left: 50px;
-    margin-left: 850px;
+    margin-left: 800px;
   }
   
+  /*conjunto list objects svg*/
   #checklist {
     animation-name: shake;
     animation-duration: 3000ms;
@@ -311,7 +311,7 @@ body {
     transform: translateY(-5px);
   }
   
-  /*frames de movimentação*/
+  /*frames de movimentação da svg parte inicial*/
   @keyframes shake{
     0% {
       transform: translateY(-5px);
@@ -324,7 +324,7 @@ body {
     }
   }
 
-/*subtitulo da pagina*/
+/*subtitulo da pagina inicial*/
   .subtitulo {
     background-color: #111111;
     color: rgb(255, 255, 255);
@@ -338,6 +338,7 @@ body {
     box-shadow: 12px 10px 30px rgba(200, 80, 255, 0.699);
   }
 
+  /*subtitulo maior inicial*/
   .subtitulo .exem h2 {
     color: #ffffff;
     text-indent: 10px;
@@ -345,8 +346,96 @@ body {
     padding-right: 70px;
   }
 
+  /*subtitulo inicial*/
   .subtitulo .exem h3 {
     color: #00ff6a;
     text-indent: -200px;
     margin: 80px;
   }
+
+  
+
+  /*div informativa do tema whatsapp*/
+  .whatsapp {
+    background: -webkit-linear-gradient(-56.3deg, #4dc073 20%, #4ab377 55%, #1d492a 90%, #0c1d11 100%);
+    height: 600px;
+    max-width: 85%;
+    margin: 65px;
+    border-radius: 15px;
+    padding-left: 40px;
+  }
+  
+  /*Cardbox do tema Whatsapp*/
+  .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.856);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -700px;
+    margin-left: 150px;
+}
+
+/*color depois em giro na box*/
+ .box::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,    transparent, transparent, #00d458);
+    animation: animate 4s linear infinite;
+    animation-delay: 2s;
+}
+
+/*color antes em giro na box*/
+ .box::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent,    transparent, transparent, #00ccff);
+    animation: animate 4s linear infinite;
+}
+
+/*frames de animação giro na box tema whatsapp*/
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+/*background fundo box, para definir sombreamento no frames*/
+.box span{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: #0c1022;
+    z-index: 1;
+}
+
+/*subtitulo-tema whatsapp*/
+h2 {
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 130px;
+    text-indent: -85px;
+}
+
+/*logo-tema whatsapp*/
+img {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 75px;
+    width: 75px;
+    padding-bottom: 85px;
+}
