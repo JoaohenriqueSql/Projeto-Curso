@@ -60,7 +60,7 @@ header {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #00ff6a;
+    background-color: #002fff;
 }
 
 .login-button a:hover {
@@ -69,7 +69,7 @@ header {
 
 .login-button button a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -360,7 +360,7 @@ body {
     background: -webkit-linear-gradient(-56.3deg, #4dc073 20%, #4ab377 55%, #1d492a 90%, #0c1d11 100%);
     height: 600px;
     max-width: 85%;
-    margin: 65px;
+    margin: 72px;
     border-radius: 15px;
     padding-left: 40px;
   }
@@ -453,6 +453,37 @@ img {
     margin-left: 500px;
 }
 
+.alword h4 {
+    color: rgb(255, 255, 255);
+    text-indent: 50px;
+    text-align: center;
+    margin: 40px;
+    font-family: sans-serif;
+}
+
+.whatsapp h1 {
+    padding-left: 600px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-indent: -210px;
+}
+
+.alword img {
+    height: 300px;
+    width: 180px;
+    padding-left: 30px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.alword img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.7);
+  }
+
 /*button link encaminhamento estilização*/
 .btn:link,
 .btn:visited {
@@ -463,7 +494,7 @@ img {
     border-radius: 100px;
     transition: all .2s;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 116px;
     margin-left: 180px;
 }
 
@@ -525,3 +556,4 @@ img {
         transform: translateY(0px);
     }
 }
+
