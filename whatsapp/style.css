@@ -8,53 +8,52 @@
   margin:0;
   padding: 0;
 }
-html{
-  box-sizing:border-box;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #6d695c;
-  background-image:
-            repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-            repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
-            linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
-            linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
-  background-size: 70px 120px;
+  background-color: #00a2ff;
 }
+
 .wrapper{
   height: 100vh;
   width: 100vw;
   display:flex;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
+  background-color: #0e0a2e;
 }
+
 .screen-container{
   height: 100%;
 }
+
 .zmdi-mood{
   font-size: 1.6rem;
   color: #7d8488;
 }
+
 .zmdi-check{
   transform:rotate(-5deg);
   color: #555;
 }
+
 .zmdi-check:nth-child(2){
   margin-left: -10.2px;
 }
+
 .tick.read .zmdi-check{
   color: #4fc3f7;
 }
+
 .red{
   color: #F00;
 }
+
 .status-bar{
   height: 25px;
   background-color: #004e45;
@@ -62,6 +61,7 @@ body{
   font-size: 16px;
   padding: 0 8px;
 }
+
 .status-bar div{
   float: right;
   position: relative;
@@ -74,9 +74,11 @@ body{
 .chat{
   height: calc(100% - 69px);
 }
+
 .chat-container{
   height: 100%;
 }
+
 .user-bar{
   height: 55px;
   background-color: #005e54;
@@ -86,12 +88,14 @@ body{
   position: relative;
   z-index: 1;
 }
+
 .user-bar div{
   float: left;
   transform: translateY(-50%);
   position: relative;
   top: 50%;
 }
+
 .actions{
   cursor: pointer;
 }
@@ -100,24 +104,30 @@ body{
   float: right;
   margin: 0 0 0 20px;
 }
+
 .user-bar .actions.more{
   margin: 0 12px 0 32px;
 }
+
 .user-bar .actions.search{
   margin-right:-5px;
 }
+
 .user-bar .actions.attachment{
   margin: 0 0 0 30px;
 }
+
 .user-bar .actions.attachment i{
   display:block;
   transform:rotate(-45deg);
 }
+
 .user-bar .avatar{
   margin: 0 0 0 5px;
   width: 36px;
   height: 36px;
 }
+
 .user-bar .avatar img{
   border-radius:50%;
   box-shadow:0 1px 0 rgba(255,255,255,.1);
@@ -136,15 +146,18 @@ body{
   white-space: nowrap;
   width: 150px;
 }
+
 .user-bar .app-name *{
   font-weight: normal;
 }
+
 .user-bar .status{
   display:block;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0;
 }
+
 .tab-bar{
   height: 40px;
   background-color: #005e54;
@@ -463,6 +476,8 @@ body{
   opacity: 0;
   animation: device-show .5s ease-in 4s 1 forwards;
 }
+
+/*link de envio de mensagem.  OBSERVAÇÃO! ao adicionar uma nova mensagem, adiciona uma novo redirecionamento de #device-2 .message:nth-child(numero da posição se for 1 o proximo será 2)*/
 #device-2 .message:nth-child(2){
   animation: device-show .3s ease-in 6s 1 forwards;
 }
@@ -483,6 +498,39 @@ body{
 }
 #device-2 .message:nth-child(8){
   animation: device-show .3s ease-in 17s 1 forwards;
+}
+#device-2 .message:nth-child(9){
+  animation: device-show .3s ease-in 18s 1 forwards;
+}
+#device-2 .message:nth-child(10){
+  animation: device-show .3s ease-in 19s 1 forwards;
+}
+#device-2 .message:nth-child(11){
+  animation: device-show .3s ease-in 21s 1 forwards;
+}
+#device-2 .message:nth-child(12){
+  animation: device-show .3s ease-in 22s 1 forwards;
+}
+#device-2 .message:nth-child(13){
+  animation: device-show .3s ease-in 24s 1 forwards;
+}
+#device-2 .message:nth-child(14){
+  animation: device-show .3s ease-in 26s 1 forwards;
+}
+#device-2 .message:nth-child(15){
+  animation: device-show .3s ease-in 27s 1 forwards;
+}
+#device-2 .message:nth-child(16){
+  animation: device-show .3s ease-in 29s 1 forwards;
+}
+#device-2 .message:nth-child(17){
+  animation: device-show .3s ease-in 31s 1 forwards;
+}
+#device-2 .message:nth-child(18){
+  animation: device-show .3s ease-in 35s 1 forwards;
+}
+#device-2 .message:nth-child(19){
+  animation: device-show .3s ease-in 38s 1 forwards;
 }
 
 
@@ -513,4 +561,13 @@ body{
     100%{
       opacity: 1;
     }
+  }
+
+
+
+
+  .most {
+    background-color: #2473bf;
+    max-width: 100%;
+    height: 400px;
   }

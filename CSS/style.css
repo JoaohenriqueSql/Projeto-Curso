@@ -63,9 +63,8 @@ header {
     background-color: #002fff;
 }
 
-.login-button a:hover {
-    color: #0086c4;
-}
+.login-button button:hover {
+    background-color: #002fff93;}
 
 .login-button button a {
     text-decoration: none;
@@ -143,10 +142,7 @@ body {
 
 /*TITULO DO SITE*/
 .titulo h1 {
-  background: -webkit-linear-gradient(-70deg, #46ffa6 25%, #4099ff 50%, #8b31ff 65%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fff;
   margin-left: 95px;
   font-size: 50px;
   padding-top: 65px;
@@ -180,10 +176,7 @@ body {
 }
 
 .comeco h1 {
-  background: -webkit-linear-gradient(-70deg, #00c3ff 20%, #1148ff 45%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #fff;
   font-size: 71px;
 }
 
@@ -327,7 +320,6 @@ body {
 /*subtitulo da pagina inicial*/
   .subtitulo {
     background-color: #111111;
-    color: rgb(255, 255, 255);
     max-width: 45%;
     height: 400px;
     margin-top: 215px;
@@ -335,24 +327,7 @@ body {
     text-align: center;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    box-shadow: 12px 10px 30px rgba(200, 80, 255, 0.699);
   }
-
-  /*subtitulo maior inicial*/
-  .subtitulo .exem h2 {
-    color: #ffffff;
-    text-indent: 10px;
-    padding-top: 30px;
-    padding-right: 70px;
-  }
-
-  /*subtitulo inicial*/
-  .subtitulo .exem h3 {
-    color: #00ff6a;
-    text-indent: -200px;
-    margin: 80px;
-  }
-
   
 
   /*div informativa do tema whatsapp*/
@@ -378,37 +353,6 @@ body {
     overflow: hidden;
     margin-top: -730px;
     margin-left: 120px;
-}
-
-/*color depois em giro na box*/
- .box::after{
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-image: conic-gradient(transparent,    transparent, transparent, #00d458);
-    animation: animate 4s linear infinite;
-    animation-delay: 2s;
-}
-
-/*color antes em giro na box*/
- .box::before{
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-image: conic-gradient(transparent,    transparent, transparent, #00ccff);
-    animation: animate 4s linear infinite;
-}
-
-/*frames de animação giro na box tema whatsapp*/
-@keyframes animate{
-    0%{
-        transform: rotate(0deg);
-}
-100%{
-    transform: rotate(360deg);
-}
 }
 
 /*background fundo box, para definir sombreamento no frames*/
@@ -448,17 +392,9 @@ img {
     overflow: hidden;
     height: 390px;
     width: 690px;
-    margin-top: -180px;
+    margin-top: -160px;
     border-radius: 20px;
     margin-left: 500px;
-}
-
-.alword h4 {
-    color: rgb(255, 255, 255);
-    text-indent: 50px;
-    text-align: center;
-    margin: 40px;
-    font-family: sans-serif;
 }
 
 .whatsapp h1 {
@@ -468,21 +404,6 @@ img {
     color: rgb(255, 255, 255);
     text-indent: -210px;
 }
-
-.alword img {
-    height: 300px;
-    width: 180px;
-    padding-left: 30px;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.alword img:hover {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.7);
-  }
 
 /*button link encaminhamento estilização*/
 .btn:link,
@@ -556,4 +477,3 @@ img {
         transform: translateY(0px);
     }
 }
-
