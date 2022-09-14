@@ -1,6 +1,7 @@
 <?php 
 
 require('connection.php');
+session_start();
 
 #for login
 if(isset($_POST['login']))
@@ -13,6 +14,21 @@ if(isset($_POST['login']))
     if(mysqli_num_rows($result)==1)
     {
       $result_fetch=mysqli_fetch_assoc($result);
+      if(password_verify($_POST['password'],$result_fetch['password']))
+      {
+        $_SESSION['logged_in']=true;
+        $_SESSION['username']=$result_fetch['username'];
+        header("location: index.php");
+      }
+      else
+      {
+        echo"
+          <script>
+            alert('Incorrect Password');
+            window.location.href='index.php';
+          </script>
+        ";
+      }
     }
     else
     {
