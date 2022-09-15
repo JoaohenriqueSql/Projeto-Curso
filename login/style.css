@@ -10,8 +10,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-  
+    justify-content: space-around; 
     background-color: #30475e;
     color: white;
     padding: 20px 0;
@@ -67,7 +66,7 @@
     margin-bottom: 30px;
     color: #30475e;
   }
-  
+
   div.popup-container div.popup h2 button{
     border: none;
     background-color: transparent;
@@ -89,7 +88,8 @@
     font-size: 14px;
     outline: none;
   }
-  div.popup-container div.popup button.login-btn,div.popup-container div.register button.register-btn{
+
+  div.popup-container div.popup button.login-btn,div.popup-container div.register button.register-btn, div.popup-container  div.forgot button.reset-btn {
     font-weight: 550;
     font-style: 15px;
     color: white;
@@ -99,20 +99,32 @@
     outline: none;
     margin-top: 5px;
   }
+
+  div.popup-container div.popup div.forgot-btn {
+    text-align: right;
+  }
+
+  div.popup-container div.popup div.forgot-btn button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 450;
+    cursor: pointer;
+  }
   
   div.popup-container div.register{
     background-color: #edeef7;
   }
   
-  div.popup-container div.register h2{
+  div.popup-container div.register h2, div.popup-container div.forgot h2{
     color: #fa9579;
   }
   
-  div.popup-container div.register input{
+  div.popup-container div.register input, div.popup-container div.forgot input{
     border-bottom-color: #fa9579;
   }
   
-  div.popup-container div.register button.register-btn{
+  div.popup-container div.register button.register-btn, div.popup-container div.forgot button.reset-btn{
     background-color: #fa9579;
   }
   
@@ -123,6 +135,7 @@
     border-radius: 5px;
     font-weight: 500;
   }
+
   div.user a{
     color: #30475e;
   }

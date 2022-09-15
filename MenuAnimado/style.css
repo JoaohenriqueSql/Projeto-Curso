@@ -2,7 +2,7 @@
 header {
     height: 100%;
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #120022 0%,#000000 100%);
+    background: radial-gradient(ellipse at bottom, #030f0f 0%,#000000 100%);
     z-index: 4000px;
 }
 

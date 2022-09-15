@@ -319,7 +319,7 @@ body {
 
 /*subtitulo da pagina inicial*/
   .subtitulo {
-    background-color: #111111;
+    background-color: #ce0000;
     max-width: 45%;
     height: 400px;
     margin-top: 215px;
@@ -395,6 +395,7 @@ img {
     margin-top: -160px;
     border-radius: 20px;
     margin-left: 500px;
+    text-indent: 20px;
 }
 
 .whatsapp h1 {

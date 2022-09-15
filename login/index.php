@@ -55,6 +55,9 @@
         <input type="password" placeholder="Password" name="password">
         <button type="submit" class="login-btn" name="login">LOGIN</button>
       </form>
+      <div class="forgot-btn">
+        <button type="button" onclick="forgotPopup()">Forgot Password ?</button>
+      </div>
     </div>
   </div>
 
@@ -74,6 +77,18 @@
     </div>
   </div>
 
+  <div class="popup-container" id="forgot-popup">
+    <div class="forgot popup">
+      <form method="POST" action="forgotpassword.php">
+        <h2>
+          <span>RESET PASSWORD</span>
+          <button type="reset" onclick="popup('forgot-popup')">X</button>
+        </h2>
+        <input type="text" placeholder="E-mail" name="email">
+        <button type="submit" class="reset-btn" name="send-reset-link">SEND LINK</button>
+      </form>
+    </div>
+  </div>
 
   <?php
     if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true)
@@ -94,6 +109,12 @@
       {
         get_popup.style.display="flex";
       }
+    }
+
+
+    function forgotPopup(){
+      document.getElementById('login-popup').style.display="none";
+      document.getElementById('forgot-popup').style.display="flex";
     }
   </script>
 
