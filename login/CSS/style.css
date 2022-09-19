@@ -6,16 +6,34 @@
   font-family: sans-serif;
 }
 
+/*corpo da página*/
+body {
+  height: 100% 100%;
+  overflow: scroll;
+  background-image: radial-gradient(circle,rgb(0, 55, 87),rgb(0, 0, 0));
+}
+
+/*background com setas fundo da body*/
+.network-background-canvas {
+  background: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+}
+
 /*menu*/
 header{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around; 
-  background-image: linear-gradient(90deg, #000000, #3d0061, #4f00a8, #5d75ff);
+  background-image: linear-gradient(90deg, #000000, #3d0061, #4f00a8, #4e86ff);
   color: rgb(255, 255, 255);
   padding: 20px 0;
-  box-shadow: 0px 3px 10px #00c3ff;
+  box-shadow: 0px 3px 15px #0077ff;
 }
 
 /*titulo menu/ logo menu*/
@@ -51,7 +69,7 @@ header div.sign-in-up button{
 /*hover botão login/registro*/
 header div.sign-in-up button:hover {
   background-color: #01003f;
-  color: #9effff;
+  color: #42ffff;
 }
 
 header div.sign-in-up button:last-child:hover {
@@ -70,7 +88,7 @@ div.popup-container{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.479); /*coloração da cor de fundo login/registro*/
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -195,20 +213,19 @@ div.user a{
   background: #4400ff;
 }
 
-/*icone svg animada com movimentos*/
+
+
+
+
+
+/*svg no inicio da pagina*/
 svg {
   width: 30vw;
   display: block;
   margin: 0 auto;
 }
 
-/*svg mudar lados/tamanho/altura/largura*/
-.svginto {
-  margin-top: 40px;
-  padding-left: 800px;
-}
-
-/*confirmação de objetos svg*/
+/*conjunto list objects svg*/
 #checklist {
   animation-name: shake;
   animation-duration: 3000ms;
@@ -216,7 +233,7 @@ svg {
   transform: translateY(-5px);
 }
 
-/*movimentos svg*/
+/*frames de movimentação da svg parte inicial*/
 #nine {
   animation-name: shake;
   animation-duration: 2000ms;
@@ -234,4 +251,41 @@ svg {
   0% {
     transform: translateY(-5px);
   }
+}
+
+/*svg alterar/mover*/
+.imagen svg {
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+/*leading inicio da pagina*/
+.leading {
+  max-width: 100%;
+}
+
+/*titulo do site*/
+.leading h1 {
+  color: #000000;
+  margin-top: -320px;
+  padding-left: 55px;
+  text-transform: capitalize;
+}
+
+.leading p {
+  color: #000000;
+  padding-left: 95px;
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 600;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.inicio-menu {
+  background-color: #ffffff;
+  max-width: 50%;
+  margin-left: 20px;
+  border-radius: 40px;
+  text-align: justify;
 }

@@ -2,6 +2,7 @@
   require('connection.php'); 
   session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,8 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Segurança da Informação</title>
   <link rel="stylesheet" href="CSS/style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -94,12 +93,10 @@
       </form>
     </div>
   </div>
-<div class="leading"> 
-  <h1>OLA</h1>
 
-
-<div class="svginto" data-aos="fade-up">
-<xml version="1.0" encoding="utf-8">
+<div class="leading">
+<div class="imagen">
+  <xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
@@ -2565,13 +2562,18 @@
 </g>
 </svg>
 </div>
+	<div class="inicio-menu">
+		<h1>Projeto Segurança da Informação</h1>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      	consequat.</p>
+	</div>
 </div>
 
 
-<script src="JS/script.js"></script>
-<script>
-  AOS.init();
-</script>
 
+<script src="JS/script.js"></script>
 </body>
 </html>
