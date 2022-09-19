@@ -14,38 +14,37 @@
     $mail = new PHPMailer(true);
 
     try {
-        //Server settings
-        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-        $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
-        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'user@example.com';                     //SMTP username
-        $mail->Password   = 'secret';                               //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-        $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        //Configurações do Servidor
+        $mail->isSMTP();                                            //Enviar usando SMTP
+        $mail->Host       = 'smtp.gmail.com';                     //Definir o servidor SMTP para enviar através
+        $mail->SMTPAuth   = true;                                   //Ativar autenticação SMTP
+        $mail->Username   = 'seguranca.projeto.tcc@gmail.com';                 //Nome de usuário SMTP
+        $mail->Password   = 'wxqpimmtqoitijdc';                               //Senha SMTP
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Ativar criptografia TLS implícita
+        $mail->Port       = 465;                                    //Porta TCP para se conectar; use 587 se você definiu `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     
         //Recipients
-        $mail->setFrom('from@example.com', 'Mailer');
-        $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
-        $mail->addAddress('ellen@example.com');               //Name is optional
-        $mail->addReplyTo('info@example.com', 'Information');
-        $mail->addCC('cc@example.com');
-        $mail->addBCC('bcc@example.com');
-    
-        //Attachments
-        $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-        $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
-    
-        //Content
-        $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = 'Here is the subject';
-        $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        $mail->setFrom('seguranca.projeto.tcc@gmail.com', 'Site Projeto');
+        $mail->addAddress($email);     //Adicionar um destinatário
+  
+        //Conteúdo
+        $mail->isHTML(true);                                  //Definir formato de e-mail para HTML
+        $mail->Subject = 'Link de redefinição de senha de Projeto Segurança da Informação TCC';
+        $mail->Body    = "Recebemos uma solicitação sua para redefinir sua senha! <br>
+        Clique no link abaixo: <br>
+          <a href='http://localhost/login/updatepassword.php?email=$email&reset_token=$reset_token'>
+          Redefinir senha
+          </a>";
+        /*alterar o endereço http://localhost/login/updatepassword.php para
+        http://localhost/nome da sua pasta ou link aqui/updatepassword.php
+        para encaminhamento quando houver alterações no link ou nome de pasta!*/
+        
     
         $mail->send();
-        echo 'Message has been sent';
-    } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        return true;
+    } 
+    catch (Exception $e) {
+        return false;
     }
   }
 
@@ -66,7 +65,7 @@
             {
               echo"
                 <script>
-                  alert('Password Reset Link Sent to mail');
+                  alert('Link de redefinição de senha enviado para o seu Email!');
                   window.location.href='index.php';
                 </script>
               "; 
@@ -75,7 +74,7 @@
             {
               echo"
                 <script>
-                  alert('Server Down! try again later');
+                  alert('Servidor caiu! tente mais tarde');
                   window.location.href='index.php';
                 </script>
               "; 
@@ -85,7 +84,7 @@
         {
             echo"
               <script>
-                alert('Email not found');
+                alert('Email não cadastrado!');
                 window.location.href='index.php';
               </script>
             ";  
@@ -95,7 +94,7 @@
     {
         echo"
           <script>
-            alert('cannot run query');
+            alert('não pode executar a consulta');
             window.location.href='index.php';
           </script>
         ";
