@@ -17,7 +17,7 @@
 
 <body>
   <header>
-    <h2>Site Teste</h2>
+    <h2>Tech Link</h2>
     <nav>
       <a href="#">DICAS</a>
       <a href="#">BLOG</a>
@@ -2582,24 +2582,24 @@
 	<main class="cards">
         <section class="card contact">
             <div class="icon">
-                <img src="img/Chat.png" alt="Contact us.">
+                <img src="img/ideia.png" alt="Contact us.">
             </div>
-            <h3>Contact us.</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <h3>Dicas</h3>
+            <span>Dicas importantes sobre cuidados na navegação web.</span>
         </section>
         <section class="card shop">
             <div class="icon">
-                <img src="img/Bag.png" alt="Shop here.">
+                <img src="img/noticia.png" alt="Shop here.">
             </div>
-            <h3>Shop here.</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <h3>Atualizações</h3>
+            <span>Atualizações recentes de notícias, tudo que você precisa para se informar.</span>
         </section>
         <section class="card about">
             <div class="icon">
-                <img src="img/Play.png" alt="About us.">
+                <img src="img/programas.png" alt="About us.">
             </div>
-            <h3>About us.</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <h3>Ferramentas</h3>
+            <span>Nossas Ferramentas de utilidades para você poder usar para sua segurança</span>
         </section>
     </main>
 	</div>
@@ -2617,9 +2617,8 @@
       <a href="#" class="btn btn-white btn-animate">click me</a>
 	</div>
 
-	<img class="image-senha" src="img/passlock.jpg">
+	<img class="image-senha" src="img/gerador.png">
 </div>
-
 
 <script src="JS/script.js"></script>
 </body>

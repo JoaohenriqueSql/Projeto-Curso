@@ -419,7 +419,7 @@
   text-align: justify;
   max-width: 40%;
   padding-top: 80px;
-  margin-left: 60px;
+  margin-left: 150px;
   align-content:flex-start;
   
 }
@@ -428,20 +428,17 @@
 .image-senha {
   height: 370px;
   width: 370px;
-  border-radius: 15px 170px;
   margin-top: -320px;
-  margin-left: 90vh;
+  margin-left: 140vh;
 }
 
-
-
-
-
+/*texto no botão*/
 .text-box {
-  margin-left: 12vw;
+  margin-left: 145px;
   margin-top: 120px;
 }
 
+/*link de redirecionamento*/
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -453,21 +450,25 @@
   position: absolute;
 }
 
+/*sombra cursor*/
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+/*ativamento sobre o mouse*/
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+/*botão*/
 .btn-white {
   background-color: #fff;
   color: rgb(0, 0, 0);
 }
 
+/*depois do cursor*/
 .btn::after {
   content: "";
   display: inline-block;
@@ -481,20 +482,24 @@
   transition: all .4s;
 }
 
+/*ao arrastar sobre ira criar um sombra*/
 .btn-white::after {
   background-color: #fff;
 }
 
+/*transformação do efeito*/
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
 
+/*animando*/
 .btn-animated {
   animation: moveInBottom 5s ease-out;
   animation-fill-mode: backwards;
 }
 
+/*frames botão*/
 @keyframes moveInBottom {
   0% {
       opacity: 0;
@@ -506,3 +511,4 @@
       transform: translateY(0px);
   }
 }
+/*end Gerador do Senhas Aleatórias*/
