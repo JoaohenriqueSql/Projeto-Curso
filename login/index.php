@@ -11,12 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Segurança da Informação</title>
   <link rel="stylesheet" href="CSS/style.css">
-  
-<!--	ANIMAÇÕES DO SCROLL DOS ELEMENTOS 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
--->
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -35,7 +31,7 @@
     {
       echo"
         <div class='user'>
-        Bem Vindo $_SESSION[username] | <a href='logout.php' style='color: red;'>SAIR</a>
+        Bem Vindo $_SESSION[username] | <a href='logout.php' style='color: red; text-transform: uppercase;'>SAIR <ion-icon name='log-out-outline'></ion-icon> </a>
         </div>
       ";
     }
@@ -43,7 +39,7 @@
     {
       echo"
       <div class='sign-in-up'>
-        <button type='button' onclick=\"popup('login-popup')\">Entrar</button>
+        <button type='button' onclick=\"popup('login-popup')\">Entrar <ion-icon name='log-in-outline'></ion-icon> </button>
         <button type='button' onclick=\"popup('register-popup')\">Registrar-se</button>
       </div>
       ";
@@ -2578,29 +2574,29 @@
 	</div>
 </div>
 
-<img src="wave.svg">
+<img src="img/onda.svg">
 
-<div class="onda">
+<div class="especificacao">
 	<br>
 	<div class="card">
 	<main class="cards">
         <section class="card contact">
             <div class="icon">
-                <img src="Chat.png" alt="Contact us.">
+                <img src="img/Chat.png" alt="Contact us.">
             </div>
             <h3>Contact us.</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
         </section>
         <section class="card shop">
             <div class="icon">
-                <img src="Bag.png" alt="Shop here.">
+                <img src="img/Bag.png" alt="Shop here.">
             </div>
             <h3>Shop here.</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
         </section>
         <section class="card about">
             <div class="icon">
-                <img src="Play.png" alt="About us.">
+                <img src="img/Play.png" alt="About us.">
             </div>
             <h3>About us.</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -2612,10 +2608,18 @@
 </div>
 
 
+<div class="container-password">
+	<h1 class="titulo">Gerador de senhas aleatórias</h1>
+	<br>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis cumque reprehenderit magnam. Eligendi qui, doloremque sunt quidem eaque provident harum earum quam. Voluptates fuga necessitatibus dolore? Assumenda, doloribus fuga?</p>
+	
+	<div class="text-box">
+      <a href="#" class="btn btn-white btn-animate">click me</a>
+	</div>
 
-<div class="sobreSenha">
-	<h1>Gerador de Senha</h1>
+	<img class="image-senha" src="img/passlock.jpg">
 </div>
+
 
 <script src="JS/script.js"></script>
 </body>
