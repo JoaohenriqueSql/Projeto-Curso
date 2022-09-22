@@ -1,3 +1,13 @@
+.cores-site {
+    background-color: #000000;
+    background-color: #0C2950;
+    background-color: #F6F4F1;
+    background-color: #7858A6; 
+    background-color: #A7FF83;
+    background-color: #086972;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +48,7 @@
   
   /*titulo menu/ logo menu*/
   header h2 {
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   
   /*links internos menu*/
@@ -301,7 +311,7 @@
   .especificacao {
     max-width: 100%;
     height: 750px;
-    background-color: #00cba9;
+    background-color: #000B76;
     margin-top: -55px;
   }
 
@@ -315,10 +325,11 @@
   
 /*box-card sobre especificações*/
   .card {
-    background-color: #0d0e44;
+    background-color: #00c3ff;
     margin: 50px;
     border-radius: 50px;
     padding-top: 20px;
+    margin-top: 50px;
   }
   
 /*cards*/
@@ -398,7 +409,7 @@
 .container-password {
   max-width: 100%;
   height: 550px;
-  background-color: #110e47;
+  background-color: #ffffff;
   margin-top: 50px;
   margin: 20px;
   border-radius: 30px;
@@ -408,14 +419,14 @@
 .container-password .titulo {
   padding-left: 120px;
   font-size: 45px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding-top: 55px;
   font-family: sans-serif;
 }
 
 /*introdução sobre o gerador*/
 .container-password p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: justify;
   max-width: 40%;
   padding-top: 80px;
@@ -453,19 +464,19 @@
 /*sombra cursor*/
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 204, 255, 0.726);
 }
 
 /*ativamento sobre o mouse*/
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 204, 255, 0.726);
 }
 
 /*botão*/
 .btn-white {
-  background-color: #fff;
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /*depois do cursor*/
@@ -512,3 +523,136 @@
   }
 }
 /*end Gerador do Senhas Aleatórias*/
+
+  .contentferr {
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 1500px;
+  }
+
+
+
+
+
+
+
+
+
+.cont {
+    background-color: #ffffff;
+    height: 1950px;
+}
+
+/*timeline sobre temas abordados*/
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    list-style: none;
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+.content {
+    padding-bottom: 20px;
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: rgba(233,33,99,1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+}
+
+.timeline ul li h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: rgba(233,33,99,1);
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: rgba(233,33,99,1);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+}
