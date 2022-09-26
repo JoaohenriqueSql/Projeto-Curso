@@ -1,0 +1,17 @@
+**Nome do banco de dados: oesm**
+
+**Desenvolvido com muito trabalho**
+
+**Recomenda PHP Version 5.6.3 and 7.4.12**
+
+
+**Detalhes de login do Usuário**
+
+Email   : steeve@gmail.com 
+Senha: password
+
+
+**Detalhes de login do administrador**
+
+Email    : sunnygkp10@gmail.com
+Senha : 123456
