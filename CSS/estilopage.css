@@ -40,7 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
-    background-image: linear-gradient(90deg, #000000, #3d0061, #0019a8d7);
+    background-image: linear-gradient(90deg, #000000, #3d0061, #001279);
     color: rgb(255, 255, 255);
     padding: 20px 0;
   }
@@ -76,7 +76,7 @@
   }
   
   /*icone de logout/login menu*/
-  ion-icon {
+    ion-icon {
     color: #ffffff;
     --ionicon-stroke-width : 45px ;
   }
@@ -84,7 +84,7 @@
   /*hover botão login/registro*/
   header div.sign-in-up button:hover {
     background-color: #01003f;
-    color: #42ffff;
+    color: #ffffff;
   }
   
   header div.sign-in-up button:last-child:hover {
@@ -289,21 +289,20 @@
     margin: 20px 0;
     font-weight: 600;
     max-width: 600px;
-    margin-top: 265px;
+    margin-top: 200px;
+    position: absolute;
   }
   
   .inicio-menu {
     max-width: 50%;
     margin-left: 30px;
     margin-top: 20px;
-    text-align: justify;
-    position: absolute;
   }
   
 /*imagem onda tela inicial*/
   .onda img {
     width: 100%;
-    margin-top: -350px;
+    margin-top: -110px;
     height: 700px;
   }
   
@@ -427,7 +426,41 @@
     margin-top: -250px;
   }
 
-  .intro2 .mulher {
-    margin-top: -140px;
-    padding-left: 80vh;
-}
+
+
+
+
+
+
+  
+  .intro2 svg {
+    margin-right: 30px;
+    margin-top: -340px;
+  }
+
+  #shell{
+    animation: up 800ms infinite alternate;
+  }
+  svg:hover #shell, svg:hover #lock{
+    animation-play-state: running;
+  }
+  #lock{
+    animation: shack 1100ms infinite alternate;
+    transform-origin: 336px 171px;
+  }
+  @keyframes up{
+    from{
+      transform: translate3d(0,5px,0);
+    }
+    to{
+      transform: translate3d(0,-5px,0);
+    }
+  }
+  @keyframes shack{
+    from{
+      transform: translate3d(0,12px,0) rotate(-32deg);
+    }
+    to{
+      transform: translate3d(0,-12px,0) rotate(2deg);
+    }
+  }
