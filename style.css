@@ -20,7 +20,7 @@
   body {
     height: 100% 100%;
     overflow: scroll;
-    background-image: radial-gradient(circle,rgb(0, 55, 87),rgb(0, 0, 0));
+    background-image: radial-gradient(circle, #071d58, #000000);
   }
   
   /*background com setas fundo da body*/
@@ -40,10 +40,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
-    background-image: linear-gradient(90deg, #000000, #3d0061, #4f00a8, #4e86ff);
+    background-image: linear-gradient(90deg, #000000, #3d0061, #0019a8d7);
     color: rgb(255, 255, 255);
     padding: 20px 0;
-    box-shadow: 0px 3px 15px #0077ff;
   }
   
   /*titulo menu/ logo menu*/
@@ -266,7 +265,7 @@
   
   /*svg alterar/mover*/
   .imagen svg {
-    margin-right: 100px;
+    margin-right: 140px;
     margin-top: 100px;
   }
   
@@ -278,7 +277,7 @@
   /*titulo do site*/
   .leading h1 {
     color: #fff;
-    margin-top: -320px;
+    margin-top: -350px;
     padding-left: 55px;
   }
   
@@ -290,7 +289,7 @@
     margin: 20px 0;
     font-weight: 600;
     max-width: 600px;
-    margin-top: 50px;
+    margin-top: 265px;
   }
   
   .inicio-menu {
@@ -298,20 +297,21 @@
     margin-left: 30px;
     margin-top: 20px;
     text-align: justify;
+    position: absolute;
   }
   
 /*imagem onda tela inicial*/
-  img {
-    max-width: 100%;
-    margin-top: 170px;
-    max-height: 800px;
+  .onda img {
+    width: 100%;
+    margin-top: -350px;
+    height: 700px;
   }
   
 /*coluna sobre as especificações*/
   .especificacao {
     max-width: 100%;
     height: 750px;
-    background-color: #000B76;
+    background-color: #071463;
     margin-top: -55px;
   }
 
@@ -328,8 +328,8 @@
     background-color: #00c3ff;
     margin: 50px;
     border-radius: 50px;
-    padding-top: 20px;
-    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 120px;
   }
   
 /*cards*/
@@ -402,257 +402,32 @@
         margin-bottom: 0;
     }
   }
+
+
+
+
+
   
 
-
-/*sobre o gerador de senhas aleatórias*/  
-.container-password {
-  max-width: 100%;
-  height: 550px;
-  background-color: #ffffff;
-  margin-top: 50px;
-  margin: 20px;
-  border-radius: 30px;
-}
-
-/*titlo da box*/
-.container-password .titulo {
-  padding-left: 120px;
-  font-size: 45px;
-  color: rgb(0, 0, 0);
-  padding-top: 55px;
-  font-family: sans-serif;
-}
-
-/*introdução sobre o gerador*/
-.container-password p {
-  color: rgb(0, 0, 0);
-  text-align: justify;
-  max-width: 40%;
-  padding-top: 80px;
-  margin-left: 150px;
-  align-content:flex-start;
-  
-}
-
-/*imagem de representação*/
-.image-senha {
-  height: 370px;
-  width: 370px;
-  margin-top: -320px;
-  margin-left: 140vh;
-}
-
-/*texto no botão*/
-.text-box {
-  margin-left: 145px;
-  margin-top: 120px;
-}
-
-/*link de redirecionamento*/
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  position: absolute;
-}
-
-/*sombra cursor*/
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 204, 255, 0.726);
-}
-
-/*ativamento sobre o mouse*/
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 204, 255, 0.726);
-}
-
-/*botão*/
-.btn-white {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-/*depois do cursor*/
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all .4s;
-}
-
-/*ao arrastar sobre ira criar um sombra*/
-.btn-white::after {
-  background-color: #fff;
-}
-
-/*transformação do efeito*/
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
-/*animando*/
-.btn-animated {
-  animation: moveInBottom 5s ease-out;
-  animation-fill-mode: backwards;
-}
-
-/*frames botão*/
-@keyframes moveInBottom {
-  0% {
-      opacity: 0;
-      transform: translateY(30px);
+/**/
+  .intro2 .onda2 {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    margin-top: -5px;
   }
 
-  100% {
-      opacity: 1;
-      transform: translateY(0px);
-  }
-}
-/*end Gerador do Senhas Aleatórias*/
-
-  .contentferr {
-    background-color: #ffffff;
-    max-width: 100%;
-    height: 1500px;
+  .intro2 .onda2copia {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: -250px;
   }
 
-
-
-
-
-
-
-
-
-.cont {
-    background-color: #ffffff;
-    height: 1950px;
-}
-
-/*timeline sobre temas abordados*/
-.timeline {
-    position: relative;
-    margin: 50px auto;
-    padding: 40px 0;
-    width: 1000px;
-    box-sizing: border-box;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background: #c5c5c5;
-}
-
-.timeline ul {
-    margin: 0;
-    padding: 0;
-}
-
-.timeline ul li {
-    list-style: none;
-    line-height: normal;
-    position: relative;
-    width: 50%;
-    padding: 20px 40px;
-    box-sizing: border-box;
-}
-
-.timeline ul li:nth-child(odd) {
-    float: left;
-    text-align: right;
-    clear: both;
-}
-
-.timeline ul li:nth-child(even) {
-    float: right;
-    text-align: left;
-    clear: both;
-}
-
-.content {
-    padding-bottom: 20px;
-}
-
-.timeline ul li:nth-child(odd):before {
-    content: '';
-    position: absolute;
-    top: 24px;
-    right: -6px;
-    width: 10px;
-    height: 10px;
-    background: rgba(233,33,99,1);
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
-}
-
-.timeline ul li:nth-child(even):before {
-    content: '';
-    position: absolute;
-    top: 24px;
-    left: -4px;
-    width: 10px;
-    height: 10px;
-    background: rgba(233,33,99,1);
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
-}
-
-.timeline ul li h3 {
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    color: rgba(233,33,99,1);
-}
-
-.timeline ul li p {
-    margin: 10px 0 0;
-    padding: 0;
-}
-
-.timeline ul li .time h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
-
-.timeline ul li:nth-child(odd) .time {
-    position: absolute;
-    top: 12px;
-    right: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: rgba(233,33,99,1);
-    color: #fff;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
-}
-
-.timeline ul li:nth-child(even) .time {
-    position: absolute;
-    top: 12px;
-    left: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: rgba(233,33,99,1);
-    color: #fff;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px rgba(233,33,99,0.3);
+  .intro2 .mulher {
+    margin-top: -140px;
+    padding-left: 80vh;
 }
