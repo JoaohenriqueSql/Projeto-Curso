@@ -23,7 +23,7 @@
       <a href="#">DICAS</a>
       <a href="#">BLOG</a>
       <a href="#">DADOS</a>
-      <a href="#">QUESTIONÁRIO</a>
+      <a href="Questinario">QUESTIONÁRIO</a>
     </nav>
 
     <?php 
@@ -107,7 +107,7 @@
 
 <div class="loading-page">
 <div class="titulo-subitulo">
-	<h1>Site Projeto TCC</h1>
+	<h1>Segurança da Informação</h1>
 	<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque, voluptates accusantium culpa, adipisci, ipsum expedita ut nesciunt harum nam laborum corrupti dolorem laboriosam possimus? Tenetur labore unde voluptate blanditiis.</h3>
 </div>
 
@@ -2580,8 +2580,7 @@
 
 
 
-
-
+<!--div introdução página inicial-->
 <div class="introducao">
 	<div class="card-box">
 	<main class="cards">
@@ -2608,8 +2607,32 @@
         </section>
     </main>
 	</div>
+
+	<h2>Um texto informativo aqui</h2>
 </div>
 
+<!--ondas e informações de intro-->
+<div class="fundo">
+	<div class="onda">
+		<img src="img/wave2.svg">
+	</div>
+
+	<div class="onda">
+		<img class="onda3" src="img/wave3.svg">
+	</div>
+
+	<div class="intro">
+		<img src="img/publico.svg">
+		<img class="cardboll-intro" src="img/cardboll.svg">
+		<div class="text-intro">
+			<h1>Manter sua privacidade é o nosso objetivo.</h1>
+			<h3>Veja como tornar isso possível</h3>
+		</div>
+	</div>
+</div>
+<div class="onda">
+	<img class="onda4" src="img/wave4.svg">
+</div>
 
 </body>
 </html>

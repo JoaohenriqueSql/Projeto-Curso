@@ -1,6 +1,6 @@
 .cores-site {
     background-color: #000000;
-    background-color: #0C2950;
+    background-color: #00b7ff;
     background-color: #F6F4F1;
     background-color: #7858A6; 
     background-color: #A7FF83;
@@ -214,16 +214,6 @@
     color: #ffffff;
   }
 
-
-
-
-
-
-
-
-
-
-
 /*svg animada loading page*/
    svg {
     width: 30vw;
@@ -232,7 +222,7 @@
     margin-top: -500px;
   }
 
-/**/
+/*lista de itens svg*/
   #checklist {
     animation-name: shake;
     animation-duration: 3000ms;
@@ -259,8 +249,60 @@
     }
   }
 
+
+
+
+
+/*cardboll de introdução ao tema*/
+  .intro .cardboll-intro{
+    margin-top: -370px;
+    height: 500px;
+    padding-left: 595px;
+  }
+
+/*imagem pessoas mexendo no computador*/
+  .intro img {
+    height: 230px;
+    display: block;
+    margin-top: -740px;
+    padding-left: 100px;
+  }
+
+/*texto introdução no cardboll*/
+  .text-intro h1 {
+    color: #fff;
+    max-width: 28%;
+    margin-top: -270px;
+    margin-left: 805px;
+  }
+
+/*subtitulo na introdução*/
+  .text-intro h3 {
+    color: #fff;
+    margin-top: 400px;
+    text-align: center;
+  }
+
+/*background na page introdução*/
+  .fundo {
+    background-image: radial-gradient(circle, #093549, #000000);
+    height: 1100px;
+  }
+
+
+/*formas onduladas*/
   .onda img {
     width: 100%;
+  }
+
+  .onda .onda3 {
+    width: 100%;
+    margin-top: -580px;
+  }
+
+  .onda .onda4 {
+    width: 100%;
+    margin-top: 120px;
   }
 
   .titulo-subitulo {
@@ -280,38 +322,17 @@
 
   .introducao {
     background-color: #0017ff;
-    height: 500px;
-    margin-top: 269px;
+    height: 520px;
+    margin-top: 243px;
   }
 
-
-
-
-  @media screen and (max-width: 1270px) {
-    .titulo-subitulo {
-      color: rgb(255, 255, 255);
-    }
-  
-    .titulo-subitulo h1 {
-      margin-top: -660px;
-      padding-left: 50px;
-    }
-  
-    .titulo-subitulo h3 {
-      width: 40%;
-      padding-top: 250px;
-      padding-left: 50px;
-    }
-
-    .introducao {
-      margin-top: 265px;
-      background-color: #0017ff;
-    }
+  .introducao h2 {
+    text-align: center;
   }
 
   .card-box {
     background-color: #120e50;
-    border-radius: 25px;
+    border-radius: 20px;
     margin: 100px;
   }
 
@@ -360,13 +381,13 @@
   }
 
   main.cards section.card.contact {
-      box-shadow: 20px 20px 50px -30px #4b93ff;
+      box-shadow: 20px 20px 50px -30px #00eeff;
   }
   main.cards section.card.shop {
-      box-shadow: 20px 20px 50px -30px #8c45ff;
+      box-shadow: 20px 20px 50px -30px #6f00ff;
   }
   main.cards section.card.about {
-      box-shadow: 20px 20px 50px -30px #4d40ff;
+      box-shadow: 20px 20px 50px -30px #00c3ff;
   }
 
   @media screen and (max-width: 720px) {
@@ -388,3 +409,11 @@
       }
 
   }
+
+
+
+  
+  
+
+
+  
