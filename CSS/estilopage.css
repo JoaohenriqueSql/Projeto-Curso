@@ -40,7 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
-    background-image: linear-gradient(90deg, #000000, #3d0061, #001279);
+    background-image: linear-gradient(90deg, #15002e, #240066, #18005a);
     color: rgb(255, 255, 255);
     padding: 20px 0;
   }
@@ -213,29 +213,26 @@
   div.user a{
     color: #ffffff;
   }
-  
-  /*SCROLLBAR PERSONALIZADA DO SITE*/
-  ::-webkit-scrollbar {
-    width: 13px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#9442ff, #2d6fff);
-    border-radius: 18px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #4400ff;
-  }
-  
-  /*svg no inicio da pagina*/
-  svg {
+
+
+
+
+
+
+
+
+
+
+
+/*svg animada loading page*/
+   svg {
     width: 30vw;
+    margin-left: 750px;
     display: block;
-    margin: 0 auto;
+    margin-top: -500px;
   }
-  
-  /*conjunto list objects svg*/
+
+/**/
   #checklist {
     animation-name: shake;
     animation-duration: 3000ms;
@@ -243,7 +240,6 @@
     transform: translateY(-5px);
   }
   
-  /*frames de movimentação da svg parte inicial*/
   #nine {
     animation-name: shake;
     animation-duration: 2000ms;
@@ -262,205 +258,133 @@
       transform: translateY(-5px);
     }
   }
-  
-  /*svg alterar/mover*/
-  .imagen svg {
-    margin-right: 140px;
-    margin-top: 100px;
-  }
-  
-  /*leading inicio da pagina*/
-  .leading {
-    max-width: 100%;
-  }
-  
-  /*titulo do site*/
-  .leading h1 {
-    color: #fff;
-    margin-top: -350px;
-    padding-left: 55px;
-  }
-  
-  /*sobre/titulo do site*/
-  .leading p {
-    color: #fff;
-    padding-left: 95px;
-    font-size: 1.1em;
-    margin: 20px 0;
-    font-weight: 600;
-    max-width: 600px;
-    margin-top: 200px;
-    position: absolute;
-  }
-  
-  .inicio-menu {
-    max-width: 50%;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  
-/*imagem onda tela inicial*/
+
   .onda img {
     width: 100%;
-    margin-top: -110px;
-    height: 700px;
-  }
-  
-/*coluna sobre as especificações*/
-  .especificacao {
-    max-width: 100%;
-    height: 750px;
-    background-color: #071463;
-    margin-top: -55px;
   }
 
-/*explicação sobre cards*/
-  .especificacao p {
-    color: #fff;
-    max-width: 50%;
-    text-align: center;
-    margin-left: 310px;
-  }
-  
-/*box-card sobre especificações*/
-  .card {
-    background-color: #00c3ff;
+  .titulo-subitulo {
+    color: rgb(255, 255, 255);
     margin: 50px;
-    border-radius: 50px;
-    padding-bottom: 20px;
-    margin-top: 120px;
   }
+
+  .titulo-subitulo h1 {
+    margin-top: -650px;
+    padding-left: 30px;
+  }
+
+  .titulo-subitulo h3 {
+    width: 40%;
+    padding-top: 250px;
+  }
+
+  .introducao {
+    background-color: #0017ff;
+    height: 500px;
+    margin-top: 269px;
+  }
+
+
+
+
+  @media screen and (max-width: 1270px) {
+    .titulo-subitulo {
+      color: rgb(255, 255, 255);
+    }
   
-/*cards*/
+    .titulo-subitulo h1 {
+      margin-top: -660px;
+      padding-left: 50px;
+    }
+  
+    .titulo-subitulo h3 {
+      width: 40%;
+      padding-top: 250px;
+      padding-left: 50px;
+    }
+
+    .introducao {
+      margin-top: 265px;
+      background-color: #0017ff;
+    }
+  }
+
+  .card-box {
+    background-color: #120e50;
+    border-radius: 25px;
+    margin: 100px;
+  }
+
   main.cards {
     display: flex;
-    padding: 32px;
-    padding-left: 100px;
-    padding-right: 50px;
-  }
-  
-/*estilo cards*/
+    padding: 95px;
+    margin: 10px;
+    color: #000000;
+}
+
   main.cards section.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: #ffffff;
-    padding: 1rem 1.5rem;
-    border-radius: 14px;
-    max-height: 468px;
-    margin-left: 32px;
-    color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: rgb(255, 255, 255);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      max-height: 468px;
+      margin-left: 32px;
   }
 
-/*centralizar*/  
   main.cards section.card:first-child {
-    margin-left: 0;
+      margin-left: 0;
   }
-  
-/*icone*/  
+
   main.cards section.card .icon {
-    width: 64px;
-    height: 64px;
+      width: 64px;
+      height: 64px;
   }
-  
-/*valor IMG*/  
+
   main.cards section.card img {
-    width: 100%;
-    margin-top: 10px;
+      width: 100%;
   }
-  
-/*subtitulo*/  
+
   main.cards section.card h3 {
-    font-size: 100%;
-    margin: 16px 0;
+      font-size: 100%;
+      margin: 16px 0;
   }
 
-/*informcação sobre o card*/  
   main.cards section.card span {
-    font-weight: 300;
-    max-width: 240px;
-    font-size: 80%;
-    margin-bottom: 16px;
+      font-weight: 300;
+      max-width: 240px;
+      font-size: 80%;
+      margin-bottom: 16px;
   }
 
-/*responsivo mobile cards*/  
+  main.cards section.card.contact {
+      box-shadow: 20px 20px 50px -30px #4b93ff;
+  }
+  main.cards section.card.shop {
+      box-shadow: 20px 20px 50px -30px #8c45ff;
+  }
+  main.cards section.card.about {
+      box-shadow: 20px 20px 50px -30px #4d40ff;
+  }
+
   @media screen and (max-width: 720px) {
-    main.cards {
-        flex-direction: column;
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-  
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-  
-    main.cards section.card:last-child {
-        margin-bottom: 0;
-    }
-  }
+      main.cards {
+          flex-direction: column;
+      }
 
+      main.cards section.card {
+          margin-left: 0;
+          margin-bottom: 32px;
+      }
 
+      main.cards section.card:last-child {
+          margin-bottom: 0;
+      }
 
+      main.cards section.card button {
+          font-size: 70%;
+      }
 
-
-  
-
-/**/
-  .intro2 .onda2 {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    transform: rotate(180deg);
-    margin-top: -5px;
-  }
-
-  .intro2 .onda2copia {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    margin-top: -250px;
-  }
-
-
-
-
-
-
-
-  
-  .intro2 svg {
-    margin-right: 30px;
-    margin-top: -340px;
-  }
-
-  #shell{
-    animation: up 800ms infinite alternate;
-  }
-  svg:hover #shell, svg:hover #lock{
-    animation-play-state: running;
-  }
-  #lock{
-    animation: shack 1100ms infinite alternate;
-    transform-origin: 336px 171px;
-  }
-  @keyframes up{
-    from{
-      transform: translate3d(0,5px,0);
-    }
-    to{
-      transform: translate3d(0,-5px,0);
-    }
-  }
-  @keyframes shack{
-    from{
-      transform: translate3d(0,12px,0) rotate(-32deg);
-    }
-    to{
-      transform: translate3d(0,-12px,0) rotate(2deg);
-    }
   }
