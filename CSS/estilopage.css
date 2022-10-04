@@ -40,7 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
-    background-image: linear-gradient(90deg, #15002e, #240066, #18005a);
+    background-image: linear-gradient(90deg, #000108, #27006e, #0003b9);
     color: rgb(255, 255, 255);
     padding: 20px 0;
   }
@@ -87,6 +87,7 @@
     color: #ffffff;
   }
   
+  /*hover botão*/
   header div.sign-in-up button:last-child:hover {
     background-color: #01003f;
   }
@@ -272,15 +273,14 @@
   .text-intro h1 {
     color: #fff;
     max-width: 28%;
-    margin-top: -270px;
+    margin-top: -310px;
     margin-left: 805px;
   }
 
-/*subtitulo na introdução*/
-  .text-intro h3 {
-    color: #fff;
-    margin-top: 400px;
-    text-align: center;
+  .text-intro img {
+    height: 100px;
+    padding-left: 285px;
+    margin-top: -350px;
   }
 
 /*background na page introdução*/
@@ -289,53 +289,77 @@
     height: 1100px;
   }
 
+  .tema-1 p {
+    color: #fff;
+    padding-left: 110px;
+    margin-top: 20px;
+  }
+
+ .tema-1 img {
+    height: 100px;
+    padding-left: 100px;
+    display: block;
+    margin-top: -2100px;
+  }
+
 
 /*formas onduladas*/
   .onda img {
     width: 100%;
   }
 
+/*svg onda 3*/
   .onda .onda3 {
     width: 100%;
     margin-top: -580px;
   }
 
+/*svg onda 4*/
   .onda .onda4 {
     width: 100%;
     margin-top: 120px;
   }
 
+/*titulo e subtitulo da loading page*/
   .titulo-subitulo {
     color: rgb(255, 255, 255);
     margin: 50px;
   }
 
+/*titulo da loading page*/
   .titulo-subitulo h1 {
     margin-top: -650px;
     padding-left: 30px;
   }
 
+/*subtitulo da loading page*/
   .titulo-subitulo h3 {
     width: 40%;
     padding-top: 250px;
   }
 
+/*introdução box modal com os cards*/
   .introducao {
     background-color: #0017ff;
     height: 520px;
     margin-top: 243px;
   }
 
+/*subtitulo da introdução*/
   .introducao h2 {
+    color: #fff;
     text-align: center;
+    margin-top: -50px;
   }
 
+/*cardbox*/
   .card-box {
     background-color: #120e50;
     border-radius: 20px;
     margin: 100px;
   }
 
+/*texto da cardbox*/
   main.cards {
     display: flex;
     padding: 95px;
@@ -343,6 +367,7 @@
     color: #000000;
 }
 
+/*cards*/
   main.cards section.card {
       display: flex;
       flex-direction: column;
@@ -359,20 +384,24 @@
       margin-left: 0;
   }
 
+/*icones do card*/
   main.cards section.card .icon {
       width: 64px;
       height: 64px;
   }
 
+/*imagem */
   main.cards section.card img {
       width: 100%;
   }
 
+/*titulo do card*/
   main.cards section.card h3 {
       font-size: 100%;
       margin: 16px 0;
   }
 
+/*informações do card*/
   main.cards section.card span {
       font-weight: 300;
       max-width: 240px;
@@ -380,6 +409,7 @@
       margin-bottom: 16px;
   }
 
+/*sombra dos cards*/
   main.cards section.card.contact {
       box-shadow: 20px 20px 50px -30px #00eeff;
   }
@@ -390,6 +420,7 @@
       box-shadow: 20px 20px 50px -30px #00c3ff;
   }
 
+/*forma responsiva dos cards*/
   @media screen and (max-width: 720px) {
       main.cards {
           flex-direction: column;

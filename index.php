@@ -2596,7 +2596,7 @@
                 <img src="img/senha.png" alt="Shop here.">
             </div>
             <h3>Senhas</h3>
-            <span>Tipos de senhas mais usadas e como ter tornar a sua senha forte.</span>
+            <span>Tipos de senhas mais usadas e sobre o gerador de senhas.</span>
         </section>
         <section class="card about">
             <div class="icon">
@@ -2608,7 +2608,8 @@
     </main>
 	</div>
 
-	<h2>Um texto informativo aqui</h2>
+	<h2>Segurança Digital aborda muitos conceitos de sistemas de senhas e falta de informação ao publico.</h2>
+
 </div>
 
 <!--ondas e informações de intro-->
@@ -2625,13 +2626,18 @@
 		<img src="img/publico.svg">
 		<img class="cardboll-intro" src="img/cardboll.svg">
 		<div class="text-intro">
-			<h1>Manter sua privacidade é o nosso objetivo.</h1>
-			<h3>Veja como tornar isso possível</h3>
+			<h1>Proteger os direitos fundamentais de liberdade e de privacidade</h1>
+			<img src="img/ideia.png">
 		</div>
 	</div>
 </div>
 <div class="onda">
 	<img class="onda4" src="img/wave4.svg">
+</div>
+
+<div class="tema-1">
+	<img src="img/mao-segura.png">
+	<p>Confiança<p>
 </div>
 
 </body>
