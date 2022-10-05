@@ -2635,7 +2635,6 @@
 </div>
 
 
-
 <div class="introducao-tema">
 <div class="tema">
 	<img src="img/mao-segura.png">
@@ -2658,6 +2657,32 @@
 </div>
 </div>
 
+
+
+
+<div class="sobre-meio">
+	<h1>Sobre a LGPD</h1>
+</div>
+
+<div class="img-sobre">
+	<img src="img/sobre-cardboll.svg">
+</div>
+
+<div class="img-sobre2">
+	<img src="img/rede.png">
+</div>
+
+
+
+
+<div class="lgpd-intro">
+	<div class="sobre-lgpd">
+		<img src="img/card-boll2.svg">
+	<div>
+	<div class="sobre-lgpd2">
+		<img src="img/pessoa-lgpd.svg">
+	<div>	
+</div>
 
 </body>
 </html>

@@ -283,20 +283,22 @@
     margin-top: -350px;
   }
 
-
+/*tema de introdução*/
   .introducao-tema {
     color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: -1920px;
+    margin-top: -2100px;
   }
 
-   .tema img {
+/*imagens de tema/assuntos*/
+  .tema img {
     height: 100px;
   }
 
+/*descrição tema*/
   .tema p {
     margin-top: 10px;
     padding-left: 18px;
@@ -322,7 +324,7 @@
 /*svg onda 4*/
   .onda .onda4 {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 120px;
   }
 
 /*titulo e subtitulo da loading page*/
@@ -342,7 +344,7 @@
   .introducao {
     background-color: #0017ff;
     height: 520px;
-    margin-top: 243px;
+    margin-top: 217px;
   }
 
 /*subtitulo da introdução*/
@@ -443,8 +445,47 @@
 
 
 
-  
-  
-
 
   
+
+  .sobre-meio h1 {
+    color: rgb(132, 0, 255);
+    margin-top: 950px;
+    text-align: center;
+    padding-left: 545px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    position: absolute;
+  }
+
+  .img-sobre img {
+    height: 350px;
+    margin-top: 800px;
+    padding-left: 400px;
+  }
+
+  .img-sobre2 img {
+    height: 200px;
+    margin-top: -300px;
+    display: block;
+    padding-left: 100px;
+  }
+
+  .lgpd-intro {
+    background-image: radial-gradient(circle, #0f103d, #0e0e0e);
+    height: 1050px;
+    margin-top: 65px;
+  }
+
+  .sobre-lgpd img {
+    height: 500px;
+    padding-left: 595px;
+    margin-top: 200px;
+  }
+
+  .sobre-lgpd2 img {
+    height: 180px;
+    margin-top: -334px;
+    margin-left: 148px;
+    display: block;
+  }
