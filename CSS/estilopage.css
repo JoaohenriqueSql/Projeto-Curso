@@ -258,7 +258,7 @@
   .intro .cardboll-intro{
     margin-top: -370px;
     height: 500px;
-    padding-left: 595px;
+    padding-left: 505px;
   }
 
 /*imagem pessoas mexendo no computador*/
@@ -274,7 +274,7 @@
     color: #fff;
     max-width: 28%;
     margin-top: -310px;
-    margin-left: 805px;
+    margin-left: 745px;
   }
 
   .text-intro img {
@@ -283,25 +283,30 @@
     margin-top: -350px;
   }
 
+
+  .introducao-tema {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -1920px;
+  }
+
+   .tema img {
+    height: 100px;
+  }
+
+  .tema p {
+    margin-top: 10px;
+    padding-left: 18px;
+  }
+
 /*background na page introdução*/
   .fundo {
     background-image: radial-gradient(circle, #093549, #000000);
     height: 1100px;
   }
-
-  .tema-1 p {
-    color: #fff;
-    padding-left: 110px;
-    margin-top: 20px;
-  }
-
- .tema-1 img {
-    height: 100px;
-    padding-left: 100px;
-    display: block;
-    margin-top: -2100px;
-  }
-
 
 /*formas onduladas*/
   .onda img {
@@ -317,25 +322,20 @@
 /*svg onda 4*/
   .onda .onda4 {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 8px;
   }
 
 /*titulo e subtitulo da loading page*/
   .titulo-subitulo {
     color: rgb(255, 255, 255);
-    margin: 50px;
-  }
-
-/*titulo da loading page*/
-  .titulo-subitulo h1 {
-    margin-top: -650px;
-    padding-left: 30px;
+    margin: 35px;
   }
 
 /*subtitulo da loading page*/
   .titulo-subitulo h3 {
     width: 40%;
-    padding-top: 250px;
+    margin-top: -473px;
+    font-size: 60px;
   }
 
 /*introdução box modal com os cards*/
@@ -411,13 +411,13 @@
 
 /*sombra dos cards*/
   main.cards section.card.contact {
-      box-shadow: 20px 20px 50px -30px #00eeff;
+      box-shadow: 20px 20px 50px -30px #00ffdd;
   }
   main.cards section.card.shop {
-      box-shadow: 20px 20px 50px -30px #6f00ff;
+      box-shadow: 20px 20px 50px -30px #ff0062;
   }
   main.cards section.card.about {
-      box-shadow: 20px 20px 50px -30px #00c3ff;
+      box-shadow: 20px 20px 50px -30px #00ff80;
   }
 
 /*forma responsiva dos cards*/

@@ -107,8 +107,7 @@
 
 <div class="loading-page">
 <div class="titulo-subitulo">
-	<h1>Segurança da Informação</h1>
-	<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque, voluptates accusantium culpa, adipisci, ipsum expedita ut nesciunt harum nam laborum corrupti dolorem laboriosam possimus? Tenetur labore unde voluptate blanditiis.</h3>
+	<h3>Sistemas seguros são aqueles que não estão inseguros</h3>
 </div>
 
 <xml version="1.0" encoding="utf-8">
@@ -2635,10 +2634,30 @@
 	<img class="onda4" src="img/wave4.svg">
 </div>
 
-<div class="tema-1">
+
+
+<div class="introducao-tema">
+<div class="tema">
 	<img src="img/mao-segura.png">
 	<p>Confiança<p>
 </div>
+
+<div class="tema">
+	<img src="img/grafico-preditivo.png">
+	<p>Dados<p>
+</div>
+
+<div class="tema">
+	<img src="img/mapas.png">
+	<p>Países<p>
+</div>
+
+<div class="tema">
+	<img src="img/quest-usuario.png">
+	<p>Questionário<p>
+</div>
+</div>
+
 
 </body>
 </html>
