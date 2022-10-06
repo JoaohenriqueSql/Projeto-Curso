@@ -2607,7 +2607,7 @@
     </main>
 	</div>
 
-	<h2>Segurança Digital aborda muitos conceitos de sistemas de senhas e falta de informação ao publico.</h2>
+	<h2 id="wow2">Segurança Digital aborda muitos conceitos de sistemas de senhas e falta de informação ao publico.</h2>
 
 </div>
 
@@ -2661,15 +2661,11 @@
 
 
 <div class="sobre-meio">
-	<h1>Sobre a LGPD</h1>
+	<h1>LGPD</h1>
 </div>
 
 <div class="img-sobre">
 	<img src="img/sobre-cardboll.svg">
-</div>
-
-<div class="img-sobre2">
-	<img src="img/rede.png">
 </div>
 
 
@@ -2682,7 +2678,16 @@
 	<div class="sobre-lgpd2">
 		<img src="img/pessoa-lgpd.svg">
 	<div>	
+
+	<div class="informacao">
+		<h1>Sobre a LGPD</h1>
+		<p>A LGPD <span>Lei Geral de Proteção de Dados</span>, foi criada no final de 2018, entrou em vigor em setembro de 2020. Em agosto de 2021, a possibilidade de punições começou a valer para quem violar essa lei.</p>
+	</div>
 </div>
+
+
+
+
 
 </body>
 </html>

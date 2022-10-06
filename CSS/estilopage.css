@@ -40,7 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
-    background-image: linear-gradient(90deg, #000108, #27006e, #0003b9);
+    background-image: linear-gradient(90deg, #06000f, #27006e, #0003b9);
     color: rgb(255, 255, 255);
     padding: 20px 0;
   }
@@ -274,7 +274,8 @@
     color: #fff;
     max-width: 28%;
     margin-top: -310px;
-    margin-left: 745px;
+    margin-left: 725px;
+    font-weight: 800;
   }
 
   .text-intro img {
@@ -291,6 +292,11 @@
     align-items: center;
     justify-content: space-around;
     margin-top: -2100px;
+  }
+
+  #wow2 {
+    font-size: 25px;
+    font-family: Poppins;
   }
 
 /*imagens de tema/assuntos*/
@@ -452,7 +458,7 @@
     color: rgb(132, 0, 255);
     margin-top: 950px;
     text-align: center;
-    padding-left: 545px;
+    padding-left: 610px;
     text-transform: capitalize;
     font-family: 'Poppins';
     position: absolute;
@@ -464,17 +470,10 @@
     padding-left: 400px;
   }
 
-  .img-sobre2 img {
-    height: 200px;
-    margin-top: -300px;
-    display: block;
-    padding-left: 100px;
-  }
-
   .lgpd-intro {
     background-image: radial-gradient(circle, #0f103d, #0e0e0e);
-    height: 1050px;
-    margin-top: 65px;
+    height: 869px;
+    margin-top: -65px;
   }
 
   .sobre-lgpd img {
@@ -489,3 +488,36 @@
     margin-left: 148px;
     display: block;
   }
+
+
+
+
+  .informacao h1 {
+    color: #fff;
+    margin-top: -300px;
+    padding-left: 50px;
+    font-size: 75px;
+    font-weight: 500;
+  }
+
+  .informacao p {
+    color: #fff;
+    padding-left: 50px;
+    margin-top: 90px;
+    max-width: 50%;
+    font-size: 30px;
+    font-family: Poppins;
+  }
+
+  .informacao span {
+    color: #00ffdd;
+  }
+
+
+
+
+
+
+
+
+  
