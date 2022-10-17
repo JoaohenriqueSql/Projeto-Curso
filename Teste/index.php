@@ -107,7 +107,6 @@
     <img src="img/wave.svg">
 </div>
 
-
 <xml version="1.0" encoding="utf-8">
 <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -2660,6 +2659,23 @@
 		</div>
 	</div>
 	
+</div>
+
+<div class="container2">
+
+	<h2>Abordagem</h2>
+
+		<div class="pessoas">
+			<img src="img/pessoa1.svg">
+			<img src="img/pessoa2.svg">
+			<img src="img/pessoa3.svg">
+			<img src="img/pessoa4.svg">
+		</div>
+
+		<h4>Os usuários devem compreender e estar em conformidade com os princípios básicos de segurança de dados, como selecionar senhas fortes, ser cauteloso com anexos de e-mail e fazer o backup de dados.</h4>
+
+
+	<img src="img/pessoas.svg">
 </div>
 
 
