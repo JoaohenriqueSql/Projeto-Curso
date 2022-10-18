@@ -202,6 +202,8 @@
     align-items: center;
     margin-left: 13vh;
     display: block;
+    filter: drop-shadow(desplazamiento-x desplazamiento-y radio-desenfoque color);
+    filter: drop-shadow(8px 8px 8px rgb(0, 0, 0));
   }
   
   .plataform .box h2 {
@@ -252,6 +254,28 @@
     padding: 30px;
     margin-left: 120px;
   }
+
+  .sobre-segurança {
+    width: 100%;
+    height: 950px;
+    background-color: #160433;
+    margin-top: -60vw;
+  }
+
+  #wave-meio {
+    margin-top: -65vw;
+  }
+
+  .celular-meio img {
+    height: 300px;
+    margin-top: -750px;
+    display: flex;
+    position: absolute;
+  }
+
+
+  
+
 }
 
 

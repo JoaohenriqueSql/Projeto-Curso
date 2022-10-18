@@ -139,8 +139,8 @@
   
   /*icone de logout/login menu*/
     ion-icon {
-    color: #ffffff;
-    --ionicon-stroke-width : 45px ;
+    color: #ff0000;
+    --ionicon-stroke-width : 45px;
   }
 
   /*hover botão login/registro*/
@@ -261,7 +261,7 @@
   
   /*botão de redirecionamento (criar)*/
   div.popup-container div.register button.register-btn, div.popup-container div.forgot button.reset-btn{
-    background-color: #0004ff;
+    background-color: #020202;
   }
   
   /*botão de usuário logado*/
@@ -506,4 +506,17 @@ main.cards section.card span {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
   text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+#fechar {
+  color: #000000;
 }

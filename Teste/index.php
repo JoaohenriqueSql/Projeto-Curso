@@ -12,6 +12,9 @@
     <title>Tech Link</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/style-responsive.css">
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
 
   <body>
@@ -34,7 +37,7 @@
             {
               echo"
                 <div class='user'>
-                Bem Vindo $_SESSION[username] | <a href='logout.php' style='color: red; text-transform: uppercase;'>SAIR <ion-icon name='log-out-outline'></ion-icon> </a>
+                Bem Vindo $_SESSION[username] | <a href='logout.php' style='color: red; text-transform: uppercase;'>SAIR <ion-icon name='chevron-forward'></ion-icon> </a>
                 </div>
               ";
             }
@@ -42,7 +45,7 @@
             {
               echo"
               <div class='sign-in-up'>
-                <button type='button' onclick=\"popup('login-popup')\">Entrar <ion-icon name='log-in-outline'></ion-icon> </button>
+                <button type='button' onclick=\"popup('login-popup')\">Entrar <ion-icon name='arrow-forward'></ion-icon> </button>
                 <button type='button' onclick=\"popup('register-popup')\">Registrar-se</button>
               </div>
               ";
@@ -59,7 +62,7 @@
       <form method="POST" action="login_register.php">
         <h2>
           <span>Login de Usuário</span>
-          <button type="reset" onclick="popup('login-popup')">X</button>
+          <button type="reset" onclick="popup('login-popup')"><ion-icon id="fechar" name="close"></ion-icon></button>
         </h2>
         <input type="text" placeholder="email ou nome de usuário" name="email_username" required>
         <input type="password" placeholder="senha" name="password" required>
@@ -77,7 +80,7 @@
       <form method="POST" action="login_register.php">
         <h2>
           <span>Criar Conta</span>
-          <button type="reset" onclick="popup('register-popup')">X</button>
+          <button type="reset" onclick="popup('register-popup')"><ion-icon id="fechar" name="close"></ion-icon></button>
         </h2>
         <input type="text" placeholder="Nome completo" name="fullname" required>
         <input type="text" placeholder="Nome de usuário" name="username" required>
@@ -102,6 +105,10 @@
     </div>
   </div>
 <!--Conteúdos-->
+
+
+
+
 
 <div class="wave">
     <img src="img/wave.svg">
@@ -2676,6 +2683,22 @@
 
 
 	<img src="img/pessoas.svg">
+</div>
+
+<div class="wave">
+<img src="img/wave3.svg">
+</div>
+
+<div class="wave">
+<img id="wave-meio" src="img/wave-sub.svg">
+</div>
+
+<div class="celular-meio">
+<img src="img/celular-meio.svg">
+</div>
+
+<div class="sobre-segurança">
+
 </div>
 
 
