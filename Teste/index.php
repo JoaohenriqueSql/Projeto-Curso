@@ -12,7 +12,7 @@
     <title>Tech Link</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/style-responsive.css">
-
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
@@ -116,7 +116,7 @@
 
 <xml version="1.0" encoding="utf-8">
 <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg data-aos="fade-up" version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.2;}
@@ -2679,7 +2679,7 @@
 			<img src="img/pessoa4.svg">
 		</div>
 
-		<h4>Os usuários devem compreender e estar em conformidade com os princípios básicos de segurança de dados, como selecionar senhas fortes, ser cauteloso com anexos de e-mail e fazer o backup de dados.</h4>
+		<h4 data-aos="fade-up">Os usuários devem compreender e estar em conformidade com os princípios básicos de segurança de dados, como selecionar senhas fortes, ser cauteloso com anexos de e-mail e fazer o backup de dados.</h4>
 
 
 	<img src="img/pessoas.svg">
@@ -2705,5 +2705,11 @@
 
 <!--Fim-->
     <script src="JS/script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 3000
+		});
+	</script>
   </body>
 </html>
