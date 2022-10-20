@@ -225,7 +225,7 @@
     font-weight: 550;
     font-style: 15px;
     color: rgb(255, 255, 255);
-    background-color: #14002c;
+    background-color: #00223d;
     padding: 4px 10px;
     border-radius: 7px;
     border: none;
@@ -259,12 +259,12 @@
   
   /*barra do input color de registro*/
   div.popup-container div.register input, div.popup-container div.forgot input{
-    border-bottom-color: #00ffff;
+    border-bottom-color: #090086;
   }
   
   /*botão de redirecionamento (criar)*/
   div.popup-container div.register button.register-btn, div.popup-container div.forgot button.reset-btn{
-    background-color: #020202;
+    background-color: #00223d;
   }
   
   /*botão de usuário logado*/
