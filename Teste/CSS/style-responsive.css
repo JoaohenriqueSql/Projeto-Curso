@@ -267,11 +267,16 @@
     margin-top: -65vw;
   }
 
-  .celular-meio img {
-    height: 300px;
-    margin-top: -200px;
+  .sobre-segurity h1 {
     position: absolute;
+    top: 315vw;
+    color: #fff;
+    left: 50px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
   }
+
+
 }
 
 

@@ -2693,14 +2693,13 @@
 <img id="wave-meio" src="img/wave-sub.svg">
 </div>
 
-<div class="celular-meio">
-<img src="img/celular-meio.svg">
-</div>
-
 <div class="sobre-segurança">
+	
+	<div class="sobre-segurity">
+		<h1>Informações</h1>	
+	</div>
 
 </div>
-
 
 
 <!--Fim-->
