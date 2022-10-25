@@ -2702,6 +2702,17 @@
 </div>
 
 
+<div class="item">
+
+	<div class="icon">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.5 58.5"><style type="text/css">  		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#F6AB00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}</style><path class="st0" d="M29.2 1c15.6 0 28.2 12.6 28.2 28.2 0 15.6-12.6 28.2-28.2 28.2S1 44.8 1 29.2C1 13.6 13.6 1 29.2 1z"/><polygon class="st0" points="29.2 26 17.2 20.9 29.2 15.7 41.2 20.9 "/><polygon class="st0" points="41.3 37.8 29.2 42.8 29.2 26 41.2 20.9 "/><polygon class="st0" points="29.2 42.8 17.1 37.8 17.2 20.9 29.2 26 "/></svg>
+	</div>
+	<h3>Design with 2D/3D dynamic graphics</h3>
+	<p>Ability to have multiple people working on the same board, at the same time.</p>
+
+  <div>
+
+
 <!--Fim-->
     <script src="JS/script.js"></script>
   </body>
