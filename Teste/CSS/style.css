@@ -413,7 +413,7 @@ main.cards section.card span {
   max-width: 240px;
   font-size: 80%;
   margin-bottom: 16px;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Poppins';
 }
 
 @media screen and (max-width: 720px) {

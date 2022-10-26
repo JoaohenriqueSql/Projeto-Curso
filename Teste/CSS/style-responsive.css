@@ -275,53 +275,6 @@
     left: 550px;
     font-family: 'Courier New', Courier, monospace;
   }
-  
-
-  
-  .item {
-    position: absolute; 
-    left: 50%; 
-    margin-top: 100px; 
-    margin-left: -180px; 
-    font-family: "Open Sans"; 
-    width: 366px; 
-  }
-
-  .icon svg { 
-    width: 70px; 
-  }
-
-  h3 { 
-    font-size: 21px; 
-    position:relative; 
-    cursor:pointer;  
-    transition: color 0.2s ease-in-out; 
-    color: #fff;
-  }
-  
-  h3:after {
-    position: absolute;
-    bottom: -18px;
-    left: 0;
-    display: block;
-    height: 4px;
-    background-color: #00f7ff;
-    content: "";
-    transition: width 0.4s ease-in-out;
-    width: 30px;
-  }
-
-  h3:hover {
-    color: rgb(201, 201, 201);
-  }
-  
-  h3:hover:after {
-    width: 150px;
-  }
-  
-  p {
-    margin-top: 50px
-  }
 
 }
 
