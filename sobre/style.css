@@ -116,6 +116,12 @@ body{
     border-radius: 50%;
 }
 
+.profile_pic2{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
 .card_content{
     position: relative;
     top: 7%;
@@ -134,7 +140,7 @@ body{
 }
 
 .typed_text{
-  text-align: left;
+  text-align: center;
 }
 
 .social{
@@ -165,4 +171,18 @@ body{
 }
 .button:hover{
     box-shadow: 0px 8px 20px rgba(0,0,0,39%);
+}
+
+@media (min-width: 300px) and (max-width: 1020px) {
+
+    body {
+        display: contents;
+        background: var(--back_color);
+    }
+
+    .vcard {
+        position: relative;
+        margin: 20px auto;
+        top: 50px;
+    }
 }
