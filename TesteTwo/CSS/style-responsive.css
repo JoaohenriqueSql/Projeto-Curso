@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 900px) {
+
+    div.user{
+      color: #fff;
+      padding: 5px 15px;
+      font-weight: 700;
+      margin-left: 20px;
+      display: contents;
+    }
+    
+    div.user a{
+      color: #ffffff;
+    }
+
+    .wave img {
+      margin-top: 400px;
+    }
+
+    .titulo h1 {  
+      position: absolute;
+      color: #ffffff;
+      text-align: center;
+      margin: auto;
+      font-size: 30px;
+    }
+
+    .sub-titulo p {
+      width: 60%;
+      font-size: 20px;
+      right: 120px;
+      color: #c2c2c2;
+    }
+
+    .button--scroll {
+      left: 45%;
+      position: absolute;
+      bottom: -1rem;
+    }
+
+    #app {
+      position: absolute;
+      height: 200px;
+      margin: auto;
+      left: 25px;
+    } 
+
+    }

@@ -183,7 +183,6 @@
     border-radius: 25px;
     padding: 20px 25px 30px 25px;
     color: #000000;
-    margin-right: 500px;
   }
   
   /*button fechar box do login*/
@@ -284,6 +283,9 @@
     color: #ffffff;
   }
 
+  #fechar {
+    color: #000000;
+  }
 /******************************************************/
 .wave img {
   width: 100%;
@@ -479,14 +481,6 @@ main.cards section.card span {
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
 .plataform {
   display: flex;
   justify-content: center;
@@ -520,6 +514,76 @@ main.cards section.card span {
 
 
 
-#fechar {
-  color: #000000;
+
+
+
+
+
+
+
+
+
+
+.container2 {
+  height: 1200px;
+  width: 100%;
+  background-color: #090936;
+
+}
+
+.container2 img {
+  height: 330px;
+  filter: drop-shadow(desplazamiento-x desplazamiento-y radio-desenfoque color);
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)) drop-shadow(8px 8px 8px rgb(0, 0, 0));
+}
+
+.container2 h2 {
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  padding: 100px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.container2 h4 {
+  color: rgb(168, 168, 168);
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  align-content: center;
+  margin-inline: 20%;
+  margin-top: 100px;
+}
+
+.pessoas {
+  display: flex;
+  position: relative;
+  margin: auto;
+}
+
+.pessoas img {
+  height: 100px;
+  margin: auto;
+}
+
+.sobre-segurança {
+  width: 100%;
+  height: 950px;
+  background-color: #160433;
+  margin-top: -60vw;
+}
+
+#wave-meio {
+  margin-top: -65vw;
+}
+
+.sobre-segurity h1 {
+  position: absolute;
+  top: 315vw;
+  color: #fff;
+  font-weight: 400;
+  left: 550px;
+  font-family: 'Courier New', Courier, monospace;
 }
