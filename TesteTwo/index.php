@@ -12,7 +12,6 @@
     <title>Tech Link</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/style-responsive.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
@@ -107,14 +106,19 @@
 <!--Conteúdos-->
 
 
-    <div class="container"> 
+<div class="container">
 
-<div class="center-app">   
+<div id="wave">
+  <img id="wave-1" src="img/wave.svg">
+</div>
+
+    <div class="container-wex">
+
     <xml version="1.0" encoding="utf-8">
-<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
-<style type="text/css">
+    <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
+    <style type="text/css">
 	.st0{opacity:0.2;}
 	.st1{opacity:0.1905;fill:#9FA4D8;}
 	.st2{opacity:0.2554;fill:#9A9ED4;}
@@ -2575,34 +2579,45 @@
 	</g>
 </g>
 </svg>
+
+
+        <div class="title">
+            <h1>Segurança da Informação</h1>
+            <p>Informar todo o conteúdo sobre segurança digital, disponibilizar assuntos que abrange todo o público alvo e facilitar o acesso a essa plataforma de mídia.</p>
+        </div>
+
+        
+    </div>
+
 </div>
 
-      <div class="titulo">
-          <h1>Segurança da Informação</h1>
-      </div>
-
-      <div class="sub-titulo">
-          <p>Informar todo o conteúdo sobre segurança digital, disponibilizar assuntos que abrange todo o público alvo e facilitar o acesso a essa plataforma de mídia.</p>
-      </div>
-
-      <div class="wave">
-          <img src="img/wave.svg">
-      </div>
-    </div>
 
 
 
-    <div class="container2">
-            <h2>Veja mais</h2>
 
-            <a href="#" class="button--scroll animation animation--infinite animation--up-down"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="-275 398.7 44.2 44.2">
-          <path fill="#fff" d="M-275 420.8c0-12.2 9.9-22.1 22.1-22.1s22.1 9.9 22.1 22.1c0 12.2-9.9 22.1-22.1 22.1s-22.1-9.9-22.1-22.1zm42.7 0c0-11.4-9.2-20.6-20.6-20.6-11.4 0-20.6 9.2-20.6 20.6 0 11.4 9.2 20.6 20.6 20.6 11.4 0 20.6-9.3 20.6-20.6zM-260.6 418c0-.2.1-.4.2-.5.3-.3.8-.3 1.1 0l6.8 6.8 6.8-6.8c.3-.3.8-.3 1.1 0 .3.3.3.8 0 1.1l-7.3 7.3c-.3.3-.8.3-1.1 0l-7.3-7.3c-.3-.2-.3-.4-.3-.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--botões animados ao voltar no topo-->
+          <a href="#" class="button--scroll animation animation--infinite animation--up-down"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="-275 398.7 44.2 44.2">
+          <path fill="#fff" d="M-275 420.8c0-12.2 9.9-22.1 22.1-22.1s22.1 9.9 22.1 22.1c0 12.2-9.9 22.1-22.1 22.1s-22.1-9.9-22.1-22.1zm42.7 0c0-11.4-9.2-20.6-20.6-20.6-11.4 0-20.6 9.2-20.6 20.6 0 11.4 9.2 20.6 20.6 20.6 11.4 0 20.6-9.3 20.6-20.6zM-260.6 418c0-.2.1-.4.2-.5.3-.3.8-.3 1.1 0l6.8 6.8 6.8-6.8c.3-.3.8-.3 1.1 0 .3.3.3.8 0 1.1l-7.3 7.3c-.3.3-.8.3-1.1 0l-7.3-7.3c-.3-.2-.3-.4-.3-.6z"/>
         </svg></a>
-    </div>
-
-
-
-
 
 
     <div class="progress-bar">
@@ -2612,6 +2627,8 @@
             </svg>
         </button>
     <div class="progress-bar">
+<!--end botton-->
+
 <!--Fim-->
     <script src="JS/script.js"></script>
   </body>

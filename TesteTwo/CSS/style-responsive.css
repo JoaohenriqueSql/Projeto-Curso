@@ -1,4 +1,10 @@
-@media (min-width: 320px) and (max-width: 900px) {
+@media (min-width: 250px) and (max-width: 900px) {
+
+    div.popup-container div.popup{
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
 
     div.user{
       color: #fff;
@@ -12,36 +18,48 @@
       color: #ffffff;
     }
 
-    .wave img {
-      margin-top: 400px;
-    }
-
-    .titulo h1 {  
-      position: absolute;
-      color: #ffffff;
-      text-align: center;
-      margin: auto;
-      font-size: 30px;
-    }
-
-    .sub-titulo p {
-      width: 60%;
-      font-size: 20px;
-      right: 120px;
-      color: #c2c2c2;
-    }
-
     .button--scroll {
       left: 45%;
       position: absolute;
       bottom: -1rem;
     }
 
-    #app {
-      position: absolute;
-      height: 200px;
-      margin: auto;
-      left: 25px;
-    } 
-
+    .back-to-top {
+      position: fixed;
+      right: 65%;
+      background: #ff0000;
+      transition: opacity 0.5s;
     }
+
+    #wave img {
+      width: 100%;
+      margin-top: 350px;
+    }
+
+    #app {
+      position: inherit;
+      margin-top: -150px;
+      height: 200px;
+    }
+
+    .title {
+      margin: 10px;
+    }
+
+    .title h1 {
+      font-size: 50px;
+      font-weight: 600;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: -550px;
+    }
+    
+    .title p {
+      color: #ffffff;
+      width: auto;
+      font-size: 25px;
+      font-weight: 100;
+      font-family: sans-serif;
+      margin-top: 200px;
+    }
+
+  }
