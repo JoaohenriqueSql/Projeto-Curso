@@ -12,6 +12,7 @@
     <title>Tech Link</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/style-responsive.css">
+	<link rel="stylesheet" href="CSS/top-to-scroll.css">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
@@ -106,19 +107,15 @@
 <!--Conteúdos-->
 
 
-<div class="container">
-
-<div id="wave">
-  <img id="wave-1" src="img/wave.svg">
+<div class="wave">
+    <img src="img/wave.svg">
 </div>
 
-    <div class="container-wex">
-
-    <xml version="1.0" encoding="utf-8">
-    <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-    <svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
-    <style type="text/css">
+<xml version="1.0" encoding="utf-8">
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="app" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 347.5 343.6" style="enable-background:new 0 0 347.5 343.6;" xml:space="preserve">
+<style type="text/css">
 	.st0{opacity:0.2;}
 	.st1{opacity:0.1905;fill:#9FA4D8;}
 	.st2{opacity:0.2554;fill:#9A9ED4;}
@@ -2581,28 +2578,118 @@
 </svg>
 
 
-        <div class="title">
-            <h1>Segurança da Informação</h1>
-            <p>Informar todo o conteúdo sobre segurança digital, disponibilizar assuntos que abrange todo o público alvo e facilitar o acesso a essa plataforma de mídia.</p>
-        </div>
+<div class="titulo">
+    <h1>Segurança da Informação</h1>        
+</div>
 
-        
-    </div>
+
+<div class="subtitulo">
+    <p>Informar todo o conteúdo sobre segurança digital, disponibilizar assuntos que abrange todo o público alvo e facilitar o acesso a essa plataforma de mídia.</p>        
+</div>
+
+
+<div class="introducao">
+<br>
+
+<div class="saiba-mais">
+
+  <h1>Saiba mais</h1>
+  <hr class="hr-1">
+</div>
+  <div class="cardbox">
+      <main class="cards">
+              <section class="card contact">
+                  <div class="icon">
+                      <img src="img/informacao.png" alt="Contact us.">
+                  </div>
+                  <h3>Informação</h3>
+                  <span>Dados e informações veridicas e relativas, sobre a lei LGPD, sobre conteúdos que informam ao publico.</span>
+              </section>
+              <section class="card shop">
+                  <div class="icon">
+                      <img src="img/navegacao.png" alt="Shop here.">
+                  </div>
+                  <h3>Navegação</h3>
+                  <span>Malawares e entre outros virus que podem estar em sites não confiáveis que podem prejudicar sua privacidade durante a navegação web</span>
+              </section>
+              <section class="card about">
+                  <div class="icon">
+                      <img src="img/alvo.png" alt="About us.">
+                  </div>
+                  <h3>Publico</h3>
+                  <span>Golpes, fraudes e estelionatos digitais, com o publico que realizam compras online, atraidas por ofertas duvidosas ou dialogo social</span>
+              </section>
+      </main>
+  </div>
 
 </div>
 
 
+<div class="wave2">
+    <img src="img/wave2.svg">
+</div>
 
 
 
+<div class="conteudos">
+	<img src="img/introducao.svg">
+	
 
+	<div class="introducao2">
+		<h4>Plataforma Segura</h4>
 
+		<h1>Conteúdos que você possa acessar com confiança.</h1>
 
+		<p>Cada dia mais a segurança de nossos dados fica ainda mais comprometida! Com o avanço da tecnologia e brechas no sistema por falta de proteção ideal, os hackers e programadores mal intencionados estão encontrando meios mais eficientes e potentes para não só colher dados e informações de diversos usuários sem o consentimento dos mesmos, como também danificar uma grande quantidade de máquinas.</p>
+	</div>
 
+	
+	<div class="plataform">
+		<div class="box">
+			<img src="img/plataformas.png">
+			<h2>Acessível</h2>
+		</div>
+		<div class="box">
+			<img src="img/confiavel.png">
+			<h2>Confiável</h2>
+		</div>
+		<div class="box">
+			<img src="img/pratico.png">
+			<h2>Prático</h2>
+		</div>
+		<div class="box">
+			<img src="img/seguro.png">
+			<h2>Serguro</h2>
+		</div>
+	</div>
+	
+</div>
 
+<div class="container2">
 
+	<h2>Abordagem</h2>
 
+		<div class="pessoas">
+			<img src="img/pessoa1.svg">
+			<img src="img/pessoa2.svg">
+			<img src="img/pessoa3.svg">
+			<img src="img/pessoa4.svg">
+		</div>
 
+		<h4>Os usuários devem compreender e estar em conformidade com os princípios básicos de segurança de dados, como selecionar senhas fortes, ser cauteloso com anexos de e-mail e fazer o backup de dados.</h4>
+
+		<div class="comput">	
+		  <img src="img/pessoas.svg">
+		</div>
+</div>
+
+<div class="wave">
+<img src="img/wave3.svg">
+</div>
+
+<div class="wave">
+<img id="wave-meio" src="img/wave-sub.svg">
+</div>
 
 
 

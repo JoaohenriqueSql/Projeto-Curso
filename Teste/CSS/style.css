@@ -68,6 +68,7 @@
   }
   
   @media (max-width: 999px) {
+
     body {
       overflow-x: hidden;
     }
@@ -91,6 +92,28 @@
     .mobile-menu {
       display: block;
     }
+
+    header div.sign-in-up {
+      display: flex;
+      position: relative;
+      right: 10px;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
   }
   
   .nav-list.active {
@@ -121,7 +144,7 @@
   }
 
   /*layout buttons menu*/
-  header div.sign-in-up button{
+  header div.sign-in-up button {
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 550;
@@ -132,6 +155,8 @@
     margin-left: 20px;
     color: #1f1f1f;
   }
+
+
 
   .popup span {
     color: #0b0070;
@@ -287,6 +312,12 @@
     color: #000000;
   }
 /******************************************************/
+
+
+
+
+
+
 .wave img {
   width: 100%;
 }
@@ -295,10 +326,10 @@
   width: 100%;
 }
 
-svg {
+#app {
   width: 30vw;
-  margin-top: -50vw;
-  margin-left: 80vh;
+  margin-top: -55vw;
+  margin-left: 115vh;
   display: block;
 }
 

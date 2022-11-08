@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Link</title>
     <link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/top-to-scroll.css">
     <link rel="stylesheet" href="CSS/style-responsive.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -2700,6 +2701,8 @@
 	</div>
 
 </div>
+
+
 
 
 

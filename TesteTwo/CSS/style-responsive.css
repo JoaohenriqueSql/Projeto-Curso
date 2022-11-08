@@ -39,21 +39,18 @@
     #app {
       position: inherit;
       margin-top: -150px;
+      margin-left: 150px;
       height: 200px;
     }
 
-    .title {
-      margin: 10px;
-    }
-
-    .title h1 {
+    .titulo h1 {
       font-size: 50px;
       font-weight: 600;
       font-family: 'Courier New', Courier, monospace;
-      margin-top: -550px;
+      margin-top: -270px;
     }
     
-    .title p {
+    .subtitulo p {
       color: #ffffff;
       width: auto;
       font-size: 25px;
@@ -61,5 +58,11 @@
       font-family: sans-serif;
       margin-top: 200px;
     }
+
+    .introducao {
+      margin-top: -100px;
+    }
+
+
 
   }

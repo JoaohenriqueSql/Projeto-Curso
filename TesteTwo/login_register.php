@@ -31,7 +31,25 @@ function sendMail($email,$v_code)
     $mail->Subject = 'Verificacao de Email - Seguranca da Informacao';
     $mail->Body    = "Seja Bem Vindo!
     Clique no link abaixo para verificar o endereço de e-mail
-    <a href='http://localhost/Teste/verify.php?email=$email&v_code=$v_code'>Verificar</a>";
+    <button 
+    style='background-image: linear-gradient(-45deg, #00052c, #17007c, #5300b3);
+            border-radius: 30px;
+            border: none;
+            height: 50px;
+            width: 190px;
+            
+            button:hover {
+              transform: scale(1.1);
+              transition: all 0.3s;
+            }
+            '
+    ><a href='http://localhost/Teste/verify.php?email=$email&v_code=$v_code'
+    style='
+    color: #ffffff;   
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    ' >Verificar</a></button>";
     //OBSERVAÇÃO o email enviado pode ser considerado como SPAN, verifique a caixa de SPAN!
 
     $mail->send();

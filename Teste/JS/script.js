@@ -77,7 +77,7 @@ function forgotPopup(){
       particle: {color: 'rgba(0, 255, 234)',
                  szMin: 0.5, szMax: 1,
                  spMin: 0.05, spMax: 0.5},
-      link: {color: 'rgba(0, 255, 234)', maxDist: 120}
+      link: {color: 'rgba(0, 255, 234)', maxDist: 20}
   };
 
   const pi2  = Math.PI*2;
