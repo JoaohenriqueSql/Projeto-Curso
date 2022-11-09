@@ -29,33 +29,27 @@ function sendMail($email,$v_code)
     //Conteúdo 
     $mail->isHTML(true);                                  //Definir formato de e-mail para HTML
     $mail->Subject = 'Verificacao de Email - Seguranca da Informacao';
-    $mail->Body    = "
-    <img style='    height: 200px;
-    width: 380px;
-    border-radius: 50px; ' src='img/tech link.png'>
-    <h1 style='color: #ffffff;
-    font-size: 40px;
-    font-family: sans-serif;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    text-align: center;
-    position: relative;
-    bottom: -20px;'>Seja Bem Vindo!</h1>
-
-    <h3 style='    color: #ffffff;
-    font-family:sans-serif ;
-    text-align: center;'>Clique no link abaixo para verificar o endereço de e-mail</h3>
-
-    <button style='background-image: linear-gradient(-45deg, #00052c, #17007c, #5300b3);
-    border-radius: 30px;
-    border: none;
-    height: 50px;
-    width: 190px; 
-    transform: scale(1.1);
-    transition: all 0.3s;'><a style='    color: #ffffff;   
+    $mail->Body    = "Seja Bem Vindo!
+    Clique no link abaixo para verificar o endereço de e-mail
+    <button 
+    style='background-image: linear-gradient(-45deg, #00052c, #17007c, #5300b3);
+            border-radius: 30px;
+            border: none;
+            height: 50px;
+            width: 190px;
+            
+            button:hover {
+              transform: scale(1.1);
+              transition: all 0.3s;
+            }
+            '
+    ><a href='http://localhost/Teste/verify.php?email=$email&v_code=$v_code'
+    style='
+    color: #ffffff;   
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 20px;' href='http://localhost/Teste/verify.php?email=$email&v_code=$v_code'>Verificar</a></button>";
+    font-size: 20px;
+    ' >Verificar</a></button>";
     //OBSERVAÇÃO o email enviado pode ser considerado como SPAN, verifique a caixa de SPAN!
 
     $mail->send();
