@@ -1,0 +1,45 @@
+@media screen and (max-width: 720px) {
+
+    .button--scroll {
+        bottom: 8rem;
+        margin: -15px;
+        padding: 0%;
+      }
+    
+      #wave img {
+        width: 100%;
+      }
+
+      #app {
+        top: 250px;
+        width: 15vh;
+        left: 35%;
+      }
+
+      .container h1 {
+        font-size: 40px;
+      }
+
+      .container h2 {
+        width: 80%;
+      }
+
+      .introducao {
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main.cards {
+        border-radius: 50px;
+        margin: auto;
+      }
+
+      main.cards section.card {
+        margin: 5px;
+        padding: 10px;
+      }
+
+}
