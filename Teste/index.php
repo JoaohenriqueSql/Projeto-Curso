@@ -67,7 +67,7 @@
 
         <h1>Segurança da Informação</h1>
 
-        <h2>Nosso tema é informar sobre segurança digital, disponibilizar assuntos que abrange todo o público alvo e facilitar o acesso a essa plataforma de mídia.</h2>
+        <h2>Nosso objetivo é informar sobre a sua segurança digital, disponibilizando informações sobre a LGPD, notícias e ferramentas que te ajudem a cuidar da sua segurança.</h2>
 
         <div class="animation-initial">
         <xml version="1.0" encoding="utf-8">

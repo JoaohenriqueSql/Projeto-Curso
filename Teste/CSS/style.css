@@ -482,28 +482,28 @@
 .container h1 {
   color: #fff;
   position: absolute;
-  top: 120px;
+  top: 150px;
   font-size: 50px;
-  font-weight: 200;
+  font-weight:300;
   font-family: 'Ubuntu', sans-serif;
   left: 6%;
 }
 
 .container h2 {
   position: absolute;
-  color: #808080;
-  width: 500px;
-  text-align: justify;
-  top: 400px;
+  color: #ffffff;
+  width: 550px;
+  text-align:justify;
+  top: 250px;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-weight:100;
+  font-family: 'Ubuntu', sans-serif;
   left: 6%;
 }
 
 #app {
   position: absolute;
-  width: 25vw;
+  width: 27vw;
   display: block;
   top: 150px;
   left: 60%;
@@ -546,7 +546,7 @@
   color: #fff;
   font-size: 40px;
   font-weight: 200;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   left: 50%;
 }
 
