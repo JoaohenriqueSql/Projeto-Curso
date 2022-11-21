@@ -149,7 +149,7 @@
     background-color: #ffffff;
     width: 350px;
     border-radius: 25px;
-    padding: 20px 25px 30px 25px;
+    padding: 20px 25px 25px 25px;
     color: #000000;
   }
   
@@ -192,9 +192,9 @@
     font-weight: 550;
     font-style: 15px;
     color: rgb(255, 255, 255);
-    background-color: #00223d;
-    padding: 4px 10px;
-    border-radius: 7px;
+    background-image: linear-gradient(-45deg, #110a6b 0%, #160096 55%, #5700c9 90%);
+    padding: 8px 40px;
+    border-radius: 20px;
     border: none;
     outline: none;
     margin-top: 5px;
@@ -245,3 +245,36 @@
     display: block;
     margin-top: -5px;
   }
+
+  /**********************************************/
+  body {
+    margin: 0;
+    background-image: url('img/fundo-login.svg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+  }
+
+  .welcome {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+  }
+
+  #icone {
+    height: 28vw;
+    margin-left: 500px;
+  }
+  
+
+  
