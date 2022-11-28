@@ -43,7 +43,7 @@ function sendMail($email,$v_code)
               transition: all 0.3s;
             }
             '
-    ><a href='http://localhost/Teste/verify.php?email=$email&v_code=$v_code'
+    ><a href='http://localhost/desinic/verify.php?email=$email&v_code=$v_code'
     style='
     color: #ffffff;   
     text-decoration: none;

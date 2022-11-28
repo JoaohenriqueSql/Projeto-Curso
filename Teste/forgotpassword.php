@@ -32,7 +32,7 @@
         $mail->Subject = 'Link de redefinição de senha de Projeto Segurança da Informação TCC';
         $mail->Body    = "Recebemos uma solicitação sua para redefinir sua senha! <br>
         Clique no link abaixo: <br>
-          <a href='http://localhost/Teste/updatepassword.php?email=$email&reset_token=$reset_token'>
+          <a href='http://localhost/desinic/updatepassword.php?email=$email&reset_token=$reset_token'>
           Redefinir senha
           </a>";
         /*alterar o endereço http://localhost/login/updatepassword.php para
