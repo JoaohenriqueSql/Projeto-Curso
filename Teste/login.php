@@ -24,7 +24,7 @@
           <span>Login de Usuário</span>
           <button type="reset" onclick="popup('login-popup')"><ion-icon id="fechar" name="close"></ion-icon></button>
         </h2>
-        <input type="text" placeholder="email ou nome de usuário" name="email_username" required>
+        <input type="text" placeholder="email ou nome" name="email_username" required>
         <input type="password" placeholder="senha" name="password" required>
         <button type="submit" class="login-btn" name="login">Entrar</button>
       </form>
@@ -33,6 +33,15 @@
       </div>
     </div>
   </div>
+
+  <div class="welcome">
+    <h1>Que bom ter você de volta!</h1>
+  </div>
+
+  <div class="container-login">
+      <img id="icone" src="img/imagem-login.svg">
+  </div>
+ 
 
 <script src="login-register.js"></script>
 </body>
