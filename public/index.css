@@ -1,0 +1,241 @@
+.cores-do-site {
+	color: #090936;
+	color: #000b69;
+	color: #00ffea;
+	color: #5f0085;
+	color: #00ff62;
+	color: #2e0083;
+	color: #ffffff;
+	color: #1f1f1f;
+  }
+  
+  .fontes-do-site {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Courier Prime', monospace;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+	--nav_bar_primary: #333;
+	--nav_bar_secondary: rgb(136, 136, 136);
+	--content_primmary: #eee;
+	--indicator_primary: #090936;
+	--indicator_secondary: #ffffff;
+	--indicator_emphasis: #5f0085;
+	--data_primary: #fff;
+	--data_secondary: #333;
+}
+
+@viewport {
+	zoom: auto;
+	width: device-width;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-size: 100%;
+	font-weight: normal;
+
+	border: none;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.leaflet-popup-close-button {
+	color: #222 !important;
+}
+
+.shadow_in {
+	box-shadow: inset 4px 4px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.shadow_out {
+	box-shadow: 4px 4px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.tool_bar {
+	float: right;
+	width: calc(100%);
+	height: 56px;
+	display: flex;
+	align-items: center;
+	background-color: var(--nav_bar_secondary);
+	color: var(--nav_bar_primary);
+}
+
+.tool_bar__title {
+	font-size: 1.3em;
+	font-weight: bold;
+	flex-grow: 1;
+	margin-left: 16px;
+	user-select: none;
+	color: var(--nav_bar_primary);
+}
+
+.tool_bar__tools {
+	font-size: 1.4em;
+	color: var(--nav_bar_primary);
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 16px;
+	margin-top: 6px;
+	flex-basis: 56px;
+}
+
+.tool_bar__tools__item {
+	list-style: none;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.content {
+	float: right;
+	width: calc(100%);
+	height: calc(100vh - 56px);
+	padding: 16px;
+	background-color: var(--content_primmary);
+	overflow: auto;
+}
+
+.content__indicators {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	gap: 16px 16px;
+	margin-bottom: 16px;
+}
+
+.content__data {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	gap: 16px 16px;
+}
+
+.content__item {
+	background-color: #fff;
+	min-height: 110px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+}
+
+.emphasis {
+	grid-column: span 2;
+}
+
+@media only screen and (max-width: 600px) {
+	.emphasis {
+		grid-column: span 1;
+	}
+}
+
+.fit {
+	height: calc(100vh - 214px);
+}
+
+.content__indicators__item {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 8px;
+	background-color: var(--indicator_primary);
+}
+
+.content__indicators__item_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.content__indicators__item_text_title {
+	font-size: 1.2em;
+	color: var(--indicator_secondary);
+}
+
+.obfuscate {
+	font-size: 0.7em;
+	color: var(--indicator_secondary);
+}
+
+.content__indicators__item_text_subtitle {
+	font-size: 1em;
+	color: var(--indicator_secondary);
+}
+
+.content__indicators__item_text_value {
+	font-size: 1.6em;
+	color: var(--indicator_secondary);
+}
+
+.content__indicators__item_icon {
+	width: 60px;
+	height: 60px;
+	font-size: 1.8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: var(--indicator_secondary);
+	background-color: var(--indicator_emphasis);
+}
+
+.content__data__map {
+	height: 96%;
+	width: 96%;
+}
+
+.content__data__item_text {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content__data__item_text_title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--data_secondary);
+}
+
+.content__data__item_text_subtitle {
+	font-size: 1.2em;
+	color: var(--data_secondary);
+}
+
+.content__data__item_chart_doughnut {
+	width: 90%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content__data__item_chart_bar {
+	width: 75%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

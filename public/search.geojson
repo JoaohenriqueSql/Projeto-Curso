@@ -1,0 +1,20 @@
+
+
+{
+"type": "FeatureCollection",
+"name": "search",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "coutry": "Brasil", "position": "2º", "id": 0, "gender": "M", "salary": 1123, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ -48.4786942, -15.7204339 ] } },
+
+{ "type": "Feature", "properties": { "coutry": "Estados Unidos", "position": "1º", "id": 1, "gender": "M", "salary": 1, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ -77.0846158, 38.8938672 ] } },
+
+{ "type": "Feature", "properties": { "coutry": "Russia", "position": "5º", "id": 2, "gender": "M", "salary": 1, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ 36.8251359, 55.5815245 ] } },
+
+{ "type": "Feature", "properties": {"coutry": "China", "position": "3º", "id": 3, "gender": "F", "salary": 112, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ -45.975411509362466, -23.312183023374622 ] } },
+
+{ "type": "Feature", "properties": { "coutry": "Canadá", "position": "4º", "id": 4, "gender": "M", "salary": 220, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ 116.1172775, 39.9390731 ] } },
+
+{ "type": "Feature", "properties": { "coutry": "India", "position": "2º", "id": 4, "gender": "M", "salary": 220, "like": 1 }, "geometry": { "type": "Point", "coordinates": [ 116.1172775, 39.9390731 ] } }
+]
+}

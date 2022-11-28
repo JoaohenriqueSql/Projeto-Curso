@@ -1,0 +1,23 @@
+{
+	"name": "dashboard",
+	"version": "1.0.0",
+	"description": "Neste pequeno projeto que preparei para você vamos utilizar o Leaflet.js o Chart.js e o Ionic Icons para desenvolver um Dashboard que simula a identificação de melhores áreas para abrir um restaurante de comida Japonesa, ao final deste \"Hello World Tunado\" você vai aprender um pouco sobre:",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DiegoGeoDev/Dashboard.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DiegoGeoDev/Dashboard/issues"
+	},
+	"homepage": "https://github.com/DiegoGeoDev/Dashboard#readme",
+	"dependencies": {
+		"gh-pages": "^3.1.0"
+	}
+}

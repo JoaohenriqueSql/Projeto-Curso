@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="Description" content="A Leaflet Dashboard">
+  <title>Leaflet Dashboard</title>
+
+  <!-- MANIFEST JSON PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <!-- IOS SUPPORT PWA -->
+  <link rel="apple-touch-icon" href="./icon-16x16.png" />
+  <link rel="apple-touch-icon" href="./icon-32x32.png" />
+  <link rel="apple-touch-icon" href="./icon-96x96.png" />
+  <link rel="apple-touch-icon" href="./icon-192x192.png" />
+  <link rel="apple-touch-icon" href="./icon-256x256.png" />
+  <link rel="apple-touch-icon" href="./icon-384x384.png" />
+  <link rel="apple-touch-icon" href="./icons/icon-512x512.png" />
+  <meta name="apple-mobile-web-app-status-bar" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icon-16x16.png">
+
+  <!-- LEAFLET -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+
+  <!-- CHART JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css"
+    integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w=="
+    crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+    integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+    crossorigin="anonymous"></script>
+
+
+  <!-- IONIC ICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
+  <link rel="stylesheet" href="./index.css">
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+
+  <nav class="tool_bar ">
+    <h1 class="tool_bar__title">Target </h1>
+  </nav>
+
+  <main class="content shadow_in">
+
+    <section class="content__indicators">
+      <div class="content__item shadow_out">
+        <div class="content__indicators__item">
+          <div class="content__indicators__item_text">
+            <h1 class="content__indicators__item_text_title">
+              PAÍSES
+              <span class="obfuscate">(EMPRESAS)</span>
+            </h1>
+            <h2 class="content__indicators__item_text_subtitle">Prejuízos</h2>
+            <h2 id="men-avg" class="content__indicators__item_text_value"></h2>
+          </div>
+          <div class="content__indicators__item_icon shadow_out">
+            <ion-icon name="globe-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="content__item shadow_out">
+        <div class="content__indicators__item">
+          <div class="content__indicators__item_text">
+            <h1 class="content__indicators__item_text_title">
+              CAPITAL
+              <span class="obfuscate">(EMPRESAS)</span>
+            </h1>
+            <h2 class="content__indicators__item_text_subtitle">Prejuízos</h2>
+            <h2 id="women-avg" class="content__indicators__item_text_value"></h2>
+          </div>
+          <div class="content__indicators__item_icon shadow_out">
+            <ion-icon name="earth-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="content__item shadow_out">
+        <div class="content__indicators__item">
+          <div class="content__indicators__item_text">
+            <h1 class="content__indicators__item_text_title">
+              TOTAL
+              <span class="obfuscate">(sofridos)</span>
+            </h1>
+            <h2 class="content__indicators__item_text_subtitle">Países e Capitais</h2>
+            <h2 id="total-count" class="content__indicators__item_text_value">&nbsp;</h2>
+          </div>
+          <div class="content__indicators__item_icon shadow_out">
+            <ion-icon name="people-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="content__item shadow_out">
+        <div class="content__indicators__item">
+          <div class="content__indicators__item_text">
+            <h1 class="content__indicators__item_text_title">
+              LGPD
+              <span class="obfuscate">(SUM)</span>
+            </h1>
+            <h2 class="content__indicators__item_text_subtitle">adequam</h2>
+            <h2 id="like-sum" class="content__indicators__item_text_value">&nbsp;</h2>
+          </div>
+          <div class="content__indicators__item_icon shadow_out">
+            <ion-icon name="shield-checkmark-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="content__item shadow_out">
+        <div class="content__indicators__item">
+          <div class="content__indicators__item_text">
+            <h1 class="content__indicators__item_text_title">
+              LGPD
+              <span class="obfuscate">(SUM)</span>
+            </h1>
+            <h2 class="content__indicators__item_text_subtitle">não adequam</h2>
+            <h2 id="dislike-sum" class="content__indicators__item_text_value">&nbsp;</h2>
+          </div>
+          <div class="content__indicators__item_icon shadow_out">
+            <ion-icon name="thumbs-down-sharp"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content__data">
+      <div class="content__item shadow_out fit emphasis">
+        <div id="map" class="content__data__map"></div>
+      </div>
+      <div class="content__item shadow_out fit">
+        <div class="content__data__item_text">
+          <h1 class="content__data__item_text_title">Men and Women</h1>
+          <h2 class="content__data__item_text_subtitle">(COUNT)</h2>
+        </div>
+        <div class="content__data__item_chart_doughnut">
+          <canvas id="doughnut"></canvas>
+        </div>
+      </div>
+      <div class="content__item shadow_out fit">
+        <div class="content__data__item_text">
+          <h1 class="content__data__item_text_title">Men and Women</h1>
+          <h2 class="content__data__item_text_subtitle">(COUNT) Like / Dislike</h2>
+        </div>
+        <div class="content__data__item_chart_bar">
+          <canvas id="bar"></canvas>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <div >
+    <h1>teste</h1>
+  </div>
+
+
+</body>
+
+</html>
